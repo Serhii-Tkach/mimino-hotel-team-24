@@ -6,3 +6,23 @@
 */
 @import url('./reset.css');
 
+:root {
+  /* Fill Color Styl */
+  --akzent-yellow: #F3C653;
+  --whit: #ffffff;
+  --black: #000000;
+  --lemon: #FFFDEE;
+  --dark-lemon: #F0ECD6;
+  --footer: #0E0C07;
+  --main-button: rgba(0, 0, 0, 0.4);
+  --main-arrow: rgba(0, 0, 0, 0.65);
+
+  /* Text Color*/
+  --text-1-color: #7A7A7A;
+  --text-2-color: #C79002;
+  --text-3-color: ##E5E5E5;
+  --text-4-color: ##B4B4B4;
+  --text-5-color: ##494848;
+  --text-6-color: ##BABABA;
+  --text-7-color: #828282;
+}
