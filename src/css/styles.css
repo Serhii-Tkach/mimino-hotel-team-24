@@ -7,9 +7,11 @@
 @import url('./reset.css');
 @import url('./team-24/header.css');
 @import url('./team-24/hotel.css');
+@import url('./team-24/room-desc.css');
 @import url('./team-24/location.css');
 @import url('./team-24/room-1.css');
 @import url('./team-24/room-2.css');
+@import url('./team-24/room-3.css');
 @import url('./team-24/footer.css');
 
 :root {
