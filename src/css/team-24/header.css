@@ -1,8 +1,15 @@
+.container {
+  position: relative;
+}
+
 .header-flex {
+  position: absolute;
+  width: 94%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding-top: 16px;
+  z-index: 2;
 }
 
 .logo {
