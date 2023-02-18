@@ -5,6 +5,16 @@
   |============================
 */
 @import url('./reset.css');
+@import url('./team-24/header.css');
+@import url('./team-24/hotel.css');
+@import url('./team-24/hotel-desc.css');
+@import url('./team-24/kitchen.css');
+@import url('./team-24/room-desc.css');
+@import url('./team-24/location.css');
+@import url('./team-24/room-1.css');
+@import url('./team-24/room-2.css');
+@import url('./team-24/room-3.css');
+@import url('./team-24/footer.css');
 
 :root {
   /* Fill Color Styl */
@@ -25,4 +35,77 @@
   --text-5-color: ##494848;
   --text-6-color: ##BABABA;
   --text-7-color: #828282;
+
+  /* FONT */
+
+    /* font-weight */
+
+    /* line-height */
+
+    /* font-size */
+
+    /* letter-spacing */
+
+}
+
+body {
+  margin: 0;
+  background-color: var(--lemon);
+  color: var(--text-1-color);
+
+  font-family: Montserrat, sans-serif;
+  font-weight: var(--font-weight-body);
+  line-height: var(--line-height-body);
+  letter-spacing: var(--letter-spacing-body);
+}
+
+@font-face {
+  font-family: 'Mimino';
+  font-style: bold;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Mimino Bold'), local('Mimino-Bold'),
+    url(./FilmP3Bold.woff2)
+      format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 414px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.list {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+
+  list-style: none;
+}
+
+.section {
+  margin-top: 0;
+  margin-bottom: 0;
 }
