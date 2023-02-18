@@ -65,11 +65,6 @@
   gap: 32px;
 }
 
-.rd-svg {
-  width: 32px;
-  height: 32px;
-}
-
 .rd-btn-div {
   display: flex;
   flex-direction: column;
