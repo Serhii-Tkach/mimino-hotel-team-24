@@ -1,0 +1,70 @@
+.restaurant-desk {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../img/image-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.rd-text-div {
+  margin-left: 140px;
+}
+
+.rd-header {
+  padding-top: 24px;
+  font-family: 'Mimino';
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  letter-spacing: 0.3em;
+  color: var(--whit);
+}
+
+.rd-name {
+  margin-top: 12px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--whit);
+}
+
+.rd-text {
+  margin-top: 20px;
+  margin-bottom: 48px;
+  width: 260px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: var(--text-six-color);
+}
+
+.rd-scroll {
+  display: flex;
+  gap: 20px;
+  margin-left: 40px;
+}
+
+.rd-scroll img {
+  width: 274px;
+  height: 270px;
+}
+
+.rd-scroll-btn {
+  margin-top: 16px;
+  margin-left: 40px;
+  fill: var(--whit);
+  display: flex;
+  gap: 32px;
+}
+
+.rd-svg {
+  width: 32px;
+  height: 32px;
+}
+
+.rd-btn {
+  border: 2px solid var(--whit);
+  border-radius: 25px;
+}
