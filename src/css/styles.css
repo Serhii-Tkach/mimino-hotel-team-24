@@ -73,11 +73,28 @@ body {
 }
 
 .container {
-  max-width: 414px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container {
+    max-width: 414px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
 }
 
 .list {
