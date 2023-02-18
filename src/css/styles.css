@@ -46,13 +46,15 @@
   /* FONT */
 
     /* font-weight */
-
-    /* line-height */
+    --font-weight-body: 700;
 
     /* font-size */
 
-    /* letter-spacing */
+    /* line-height */
+    --line-height-body: 1.25;
 
+    /* letter-spacing */
+    --letter-spacing-body: 0.02;
 }
 
 body {
