@@ -1,16 +1,16 @@
 .header-flex {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-top: 16px;
 }
 
 .logo {
-  font-family: 'Mimino';
+  font-family: 'Mimino', sans-serif;
   font-size: 36px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  /* color: var(--whxit) */
-  margin-right: 52px;
+  color: var(--whit);
 }
 
 .header-nav {
@@ -36,6 +36,11 @@
   margin-right: 8px;
 }
 
+.header-phone {
+  display: flex;
+  align-items: center;
+}
+
 .header-number {
   display: none;
 }
@@ -44,67 +49,65 @@
   display: none;
 }
 
-
-
-/* ///////////////////////////// */
-
-
-/* .header-flex {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
+.header-icon, .header-social-icon {
+  fill: var(--akzent-yellow);
 }
 
-.logo {
-  font-family: 'Mimino';
-  font-size: 40px;
-  line-height: 1.07;
-  letter-spacing: 0.3em;
-  color: var(--whxit);
-  margin-right: 135px;
+@media screen and (min-width: 768px) {
+  .header-flex {
+    padding-top: 24px;
+  }
+
+  .logo {
+    font-size: 40px;
+  }
+
+  .nav-restaurant {
+    margin-right: 72px;
+  }
+
+  .header-label {
+    font-size: 20px;
+    margin-right: 32px;
+  }
+
+  .header-phone {
+    padding: 7px;
+    border: 1px solid rgba(243, 198, 83, 0.7);
+    border-radius: 2px;
+  }
+
+  .header-icon {
+    margin-right: 4px;
+  }
+
+  .header-number {
+    display: block;
+
+    font-size: 14px;
+    line-height: 1.21;
+    letter-spacing: 0.02em;
+    color: var(--whit);
+  }
 }
 
-.header-nav {
-  display: flex;
+@media screen and (min-width: 1200px) {
+  .header-flex {
+    justify-content: start;
+  }
+
+  .logo {
+    margin-right: 135px;
+  }
+
+  .header-social-list {
+    display: flex;
+    margin-left: auto;
+  }
+
+  .social-item:not(:last-child) {
+    margin-right: 22px;
+  } 
 }
 
-.nav-restaurant,
-.nav-hotel {
-  display: flex;
-  align-items: center;
-} */
 
-/* .nav-restaurant {
-  margin-right: 72px;
-} */
-
-/* .header-label {
-  color: var(--akzent-yellow);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.21;
-  letter-spacing: 0.02em;
-  margin-right: 32px;
-} */
-
-/* .header-phone {
-  display: flex;
-  align-items: center;
-
-  font-size: 14px;
-  line-height: 1.21;
-  letter-spacing: 0.02em;
-  color: var(--whit);
-  padding: 7px;
-  border: 1px solid rgba(243, 198, 83, 0.7);
-  border-radius: 2px;
-}
-
-.header-social-list {
-  display: flex;
-  margin-left: auto;
-}
-
-.social-item:not(:last-child) {
-  margin-right: 22px;
-} */

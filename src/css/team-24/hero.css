@@ -1,59 +1,56 @@
-/* .header-flex {
-  display: flex;
-  align-items: center;
-  padding-top: 24px;
+.hero-section {
+  background-image: linear-gradient(
+    to right,
+    rgba(46, 47, 66, 0.7),
+    rgba(46, 47, 66, 0.7)
+  ),
+  url(../../img/Mobile/hero/hero-main-mobile@1x.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-.logo {
-  font-family: 'Mimino';
-  font-size: 40px;
+.hero-container {
+  text-align: center;
+  margin: auto;
+  color: var(--whit);
+}
+
+.hero-title {
+  font-family: 'Mimino', sans-serif;
+  font-size: 96px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  color: var(--whxit);
-  margin-right: 135px;
+  margin-bottom: 24px;
 }
 
-.header-nav {
-  display: flex;
+.hero-secondary-title {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
+  margin-bottom: 40px;
 }
 
-.nav-restaurant,
-.nav-hotel {
-  display: flex;
-  align-items: center;
-} */
+.hero-paragraph {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  margin-bottom: 113px;
+}
 
-/* .nav-restaurant {
-  margin-right: 72px;
-} */
-
-/* .header-label {
+.hero-btn {
+  font-weight: 700;
+  line-height: 1.21;
+  letter-spacing: 0.02em;
   color: var(--akzent-yellow);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.21;
-  letter-spacing: 0.02em;
-  margin-right: 32px;
-} */
-
-/* .header-phone {
-  display: flex;
-  align-items: center;
-
-  font-size: 14px;
-  line-height: 1.21;
-  letter-spacing: 0.02em;
-  color: var(--whit);
-  padding: 7px;
-  border: 1px solid rgba(243, 198, 83, 0.7);
-  border-radius: 2px;
+  padding: 12px 24px;
+  border: 2px solid var(--whit);
+  border-radius: 25px;
 }
 
-.header-social-list {
-  display: flex;
-  margin-left: auto;
+.hero-btn:first-child {
+  margin-bottom: 24px;
 }
-
-.social-item:not(:last-child) {
-  margin-right: 22px;
-} */
