@@ -1,0 +1,76 @@
+.restaurant-menu {
+  background-color: var(--lemon);
+  padding-left: 15px;
+}
+
+.menu-header {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  margin-top: 32px;
+}
+
+.menu-chapter {
+  font-family: 'Times New Roman';
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+
+.menu-item {
+  display: flex;
+}
+
+.menu-item-name {
+  width: 221px;
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+}
+
+.menu-item-description {
+  width: 220px;
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+}
+
+.menu-item-weight {
+  width: 52px;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  margin: auto 32px;
+}
+
+.menu-item-price {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.02em;
+  margin: auto 0;
+}
+
+.menu-btn-div {
+  display: flex;
+  justify-content: center;
+  margin: 32px 0;
+}
+
+.menu-btn {
+  background-color: var(--black);
+  color: var(--akzent-yellow);
+  border: 2px solid var(--lemon);
+  border-radius: 25px;
+  padding: 14px 24px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+}
