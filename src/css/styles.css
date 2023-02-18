@@ -1,19 +1,26 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
+/* Home page */
 @import url('./reset.css');
 @import url('./team-24/header.css');
+@import url('./team-24/hero.css');
+@import url('./team-24/rest-desk.css');
 @import url('./team-24/hotel.css');
 @import url('./team-24/hotel-desc.css');
-@import url('./team-24/kitchen.css');
-@import url('./team-24/room-desc.css');
 @import url('./team-24/location.css');
+
+/* Restaurant page */
+@import url('./team-24/hero-restaurant.css');
+@import url('./team-24/kitchen.css');
+@import url('./team-24/rest-menu.css');
+
+/* Hotel page */
+@import url('./team-24/hero-hotel.css');
 @import url('./team-24/room-1.css');
 @import url('./team-24/room-2.css');
 @import url('./team-24/room-3.css');
+
+/* Room page */
+@import url('./team-24/hero-room.css');
+@import url('./team-24/room-desc.css');
 @import url('./team-24/footer.css');
 
 :root {
