@@ -28,13 +28,13 @@
   --main-arrow: rgba(0, 0, 0, 0.65);
 
   /* Text Color*/
-  --text-1-color: #7A7A7A;
-  --text-2-color: #C79002;
-  --text-3-color: ##E5E5E5;
-  --text-4-color: ##B4B4B4;
-  --text-5-color: ##494848;
-  --text-6-color: ##BABABA;
-  --text-7-color: #828282;
+  --text-one-color: #7A7A7A;
+  --text-two-color: #C79002;
+  --text-three-color: #E5E5E5;
+  --text-four-color: #B4B4B4;
+  --text-five-color: #494848;
+  --text-six-color: #BABABA;
+  --text-seven-color: #828282;
 
   /* FONT */
 
