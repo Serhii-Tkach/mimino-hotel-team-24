@@ -121,4 +121,5 @@ body {
 
 button {
   background-color: var(--black);
+  color: var(--whit);
 }
