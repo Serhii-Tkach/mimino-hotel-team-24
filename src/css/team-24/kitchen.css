@@ -1,0 +1,66 @@
+/* KITCHEN */
+
+.kitchen {
+}
+.container {
+}
+.kitchen-first-line {
+}
+.kitchen-first-text-block {
+    width: 258px;
+}
+.kitchen-pre-header {
+    font-family: 'Times New Roman', Times, serif;
+    color: #B4B4B4;
+    font-size: 20px;
+    line-height: 0.76;
+    margin-bottom: 12px;
+    margin-top: 16px;
+}
+.kitchen-header {
+    color: var(--text-five-color);
+    font-family: "Flim P3";
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.kitchen-text-one {
+    font-weight: 600;
+    color: var(--text-one-color);
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.kitchen-image-one {
+    display: block;
+    margin-left: auto;
+    margin-bottom: 32px;
+}
+.kitchen-second-line {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+.kitchen-image-two {
+}
+.kitchen-text-two {
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+    color: var(--text-two-color);
+
+}
+
+.kitchen-images-slider {
+    margin-top: 32px;
+    display: flex;
+    column-gap: 24px;
+}
+.kitchen-image-three {
+  overflow: hidden;
+}
+.kitchen-image-four {
+    overflow: hidden;
+}
