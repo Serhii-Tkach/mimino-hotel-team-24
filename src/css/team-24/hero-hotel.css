@@ -36,6 +36,12 @@
   }
 } 
 
+.hero-secondary-title-hotel {
+  font-size: 20px;
+  line-height: 1.21;
+  margin-bottom: 178px;
+}
+
 @media screen and (min-width: 1024px) {
   .hero-section-hotel {
     background-image: linear-gradient(
@@ -70,6 +76,10 @@
         ),
         url(../../img/Tablet/hero/hero-hotel-tablet@3x.webp);
     }
+  }
+
+  .hero-secondary-title-hotel {
+    margin-bottom: 226px;
   }
 }
 
@@ -107,6 +117,10 @@
         ),
         url(../../img/Desktop/hero/hero-hotel-desktop@3x.webp);
     }
+  }
+
+  .hero-secondary-title-hotel {
+    margin-bottom: 249px;
   }
 }
 
