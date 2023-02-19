@@ -1,4 +1,4 @@
-/* .hero-section {
+.hero-section-restaurant {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.65),
@@ -13,7 +13,7 @@
 @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
-  .hero-section {
+  .hero-section-restaurant {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
@@ -26,7 +26,7 @@
 @media (min-device-pixel-ratio: 3),
   (min-resolution: 288dpi),
   (min-resolution: 3dppx) {
-  .hero-section {
+  .hero-section-restaurant {
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
@@ -34,5 +34,79 @@
       ),
       url(../../img/Mobile/hero/hero-restaurant-mobile@3x.webp);
   }
-} */
+} 
+
+@media screen and (min-width: 1024px) {
+  .hero-section-restaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+      ),
+      url(../../img/Tablet/hero/hero-restaurant-tablet@1x.webp);
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section-restaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/Tablet/hero/hero-restaurant-tablet@2x.webp);
+    }
+  }
+  
+  @media (min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero-section-restaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/Tablet/hero/hero-restaurant-tablet@3x.webp);
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero-section-restaurant {
+    background-image: linear-gradient(
+        to right,
+        rgba(0, 0, 0, 0.65),
+        rgba(0, 0, 0, 0.65)
+      ),
+      url(../../img/Desktop/hero/hero-restaurant-desktop@1x.webp);
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-section-restaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/Desktop/hero/hero-restaurant-desktop@2x.webp);
+    }
+  }
+  
+  @media (min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero-section-restaurant {
+      background-image: linear-gradient(
+          to right,
+          rgba(0, 0, 0, 0.65),
+          rgba(0, 0, 0, 0.65)
+        ),
+        url(../../img/Desktop/hero/hero-restaurant-desktop@3x.webp);
+    }
+  }
+}
 
