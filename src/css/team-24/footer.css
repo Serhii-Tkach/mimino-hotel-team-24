@@ -11,6 +11,8 @@
 }
 
 .footer-logo-first {
+    display: inline-block;
+    width: 127px;
     font-family: 'Mimino';
     font-style: normal;
     font-weight: 700;
@@ -18,12 +20,8 @@
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--akzent-yellow);
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-logo-first:hover,
-.footer-logo-first:focus {
-    color: var(--text-two-color);
-}
+
 .footersec {
     display: flex;
     justify-content: space-between;
@@ -77,16 +75,12 @@
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    color: var(--akzent-yellow);
+    fill: rgba(243, 198, 83, 0.7);;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footersoc-icon {
-    fill: currentColor;
-}
-
-.footersoc-icon:hover,
-.footersoc-icon:focus {
+.footersoc-link:hover,
+.footersoc-link:focus {
     fill: var(--text-two-color);
 }
 
@@ -108,33 +102,32 @@
     .footer {
         padding-top: 80px;
         padding-bottom: 80px;
-        padding-right: 122px;
-        padding-left: 154px;
     }
 
     .footersec-all {
         display: flex;
+        width: 384px;
         flex-direction: row;
+        justify-content: space-between;
     }
 
     .footersoc-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
 
     }
     .footer-logo {
-           
-            padding-top: 37px;
-            padding-bottom: 38px;
-        }
+        padding-top: 37px;
+        padding-bottom: 38px;
+        margin-right: 163px;
+    }
     .footersec-list {
         margin-bottom: 0px;
-        margin-right: 145px;
     }
 
     .footer-logo-first {
-        margin-right: 163px;
         font-size: 64px;
+        width: 202px;
     }
 
     .footersoc-link {
@@ -147,37 +140,30 @@
         align-items: center;
         justify-content: space-between;
         color: var(--akzent-yellow);
-
     }
 
     .footersoc-link:hover,
     .footercos-link:focus+.footersoc-icon:hover {
         border-color: var(--text-two-color);
         color: var(--text-two-color);
-
     }
 
     .footersoc-tel {
         display: inline-block;
     }
-
 }
 
 @media screen and (min-width:1280px) {
     .footer>.container {
         width: 878px;
     }
-    
+    .footersec-all {
+        width: 446px;
+        justify-content: space-between;
+    }
     .footer-logo {
         padding-top: 40px;
         padding-bottom: 35px;
-    }
-    .footer-logo-first {
         margin-right: 231px;
     }
-
-    .footersec-list {
-        margin-right: 231px;
-    }
-
 } 
