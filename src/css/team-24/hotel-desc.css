@@ -14,26 +14,21 @@
     gap: 12px;
 }
 .hotel-desc-title{
-    font-family: 'Film P3';
-    font-weight: 700;
+    font-family: 'Mimino', sans-serif;
     font-size: 40px;
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--whit);
 }
 .hotel-desc-subtitle{
-    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
-    letter-spacing: 0.02em;
     color: var(--whit);
-    padding-left: 130px;
+    padding-left: 45px;
 }
 .hotel-desc-text{
     font-weight: 600;
     font-size: 12px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
     color: var(--text-six-color) ;
     padding-left: 16px;
     padding-right: 123px;
@@ -100,11 +95,9 @@
     border-radius: 25px;
     width: 236px;
     height: 48px;
-    font-weight: 700;
-    line-height: 1.25;
     text-align: center;
-    letter-spacing: 0.02em;
     color: var(--akzent-yellow);
+    transition: background-color 250ms cubic-bezier(0.47, 0, 0.745, 0.715), border 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hotel-desc-button:hover, .hotel-desc-button:active, .hotel-desc-button:focus{
     background: var(--whit);
