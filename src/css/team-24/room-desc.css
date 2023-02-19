@@ -15,13 +15,16 @@
 }
 .room-desc-list-member{
     margin-bottom: 32px;
+  
 }
 .room-desc-title{
     font-family: 'Times New Roman';
     font-size: 24px;
     line-height: 1.16;
     margin-bottom: 16px;
+    color: var(--black);
 }
+ 
 .room-desc-text{
     color: var(--text-one-color);
     margin-bottom: 16px;
@@ -71,3 +74,49 @@
     fill: var(--akzent-yellow);
 }
 
+/* tablet 1023 to 1279 */
+@media screen and (min-width: 1023px) and (max-width: 1279px){
+    .room-desc{
+        padding-top: 50px;
+        padding-bottom: 40px;
+    }
+}
+@media screen and (min-width: 1023px){
+   
+    .room-desc-list-member-content{
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+     }
+     .room-desc-list-member-content > p{
+        width: 400px;
+     }
+     .room-desc-interaction{
+        align-items: end;
+        text-align: initial;
+        gap: 32px;
+     }
+     .room-desc-button{
+        width: 434px;
+     }
+     
+     .room-desc-link{
+        width: 434px;
+     }
+     .room-desc-text{
+        margin-bottom: 0;
+     }
+     .room-desc-list-member:not(:last-child){
+        margin-bottom: 32px;
+     }
+     .room-desc-list-member:last-child{
+        margin-bottom: 40px;
+     }
+}
+/* desktop 1280 upwards */
+@media screen and (min-width: 1280px){
+    .room-desc{
+        padding-top: 48px;
+        padding-bottom: 40px;
+    }
+}

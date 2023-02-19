@@ -106,3 +106,10 @@
     background: var(--whit);
     border: 2px solid var(--akzent-yellow);
 }
+/* 767 to 1023 */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    .hotel-desc-icon-list{
+        justify-content: initial;
+        padding-left: 265px;
+    }
+}
