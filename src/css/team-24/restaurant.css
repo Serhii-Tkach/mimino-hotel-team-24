@@ -1,16 +1,116 @@
-.res_title-text_l {
+.title-text {
     font-family: 'Times New Roman';
     font-weight: 400;
     font-size: 20px;
     line-height: 1.15;
-    color: #B4B4B4;
+    color: var(--text-four-color);
 }
 
-.res_title-text_ll {
+.title-text_mimiho {
     font-family: 'Mimino';
     font-weight: 700;
     font-size: 40px;
     line-height: 43px;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--text-five-color);
 }
+
+.res_text-desc {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.25;
+    letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+
+    .container-restaurant {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: aqua;
+    }
+
+    .title-text-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .title-text {
+        margin-top: 16px;
+    }
+    .title-text_mimiho {
+        margin-top: 12px;
+    }
+    .black-text {
+        width: 258px;
+        height: 76px;
+        margin-top: 12px;
+        color: var(--text-one-color);
+    }
+    .restaurant-interior-photo {
+        width: 244px;
+        height: 322px;
+        margin-top: 28px;
+        margin-left: 140px;
+        background: #DADADA;
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+
+    .photo-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .two-row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 32px;
+        gap: 20px;
+    }
+
+    .img-list {
+        display: flex;
+        padding-top: 32px;
+        margin-left: 69px;
+        gap: 25px;
+    }
+
+    .btn-click-list {
+        display: flex;
+        padding-top: 20px;
+
+    }
+
+    .restaurant-interior_photo-two {
+        width: 200px;
+        height: 278px;
+    }
+
+    .gold-text {
+        width: 163px;
+        height: 120px;
+        color: var(--text-two-color);
+    }
+
+    .photo-list {
+        display: flex;
+    }
+
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .container-restaurant {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: aqua;
+    }
+
+  }
+  
+  /* @media screen and (min-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    } */
