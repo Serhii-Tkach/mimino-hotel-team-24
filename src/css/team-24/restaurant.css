@@ -107,6 +107,12 @@
         align-items: flex-start;
         background-color: aqua;
     }
+    .title-text-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+
 
   }
   
