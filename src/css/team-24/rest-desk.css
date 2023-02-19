@@ -1,13 +1,14 @@
 .restaurant-desk {
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
-    url(../img/image-bg.jpg);
+    url('../../img/Mobile/Rest-desk/rest-desk-img4m@1x.webp');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  overflow-x: hidden;
 }
 
 .rd-text-div {
-  margin-left: 140px;
+  padding-left: 140px;
 }
 
 .rd-header {
@@ -47,24 +48,113 @@
 }
 
 .rd-scroll img {
-  width: 274px;
+  width: 270px;
   height: 270px;
+}
+
+.rd-scroll-short-img {
+  max-width: 162px;
 }
 
 .rd-scroll-btn {
   margin-top: 16px;
-  margin-left: 40px;
+  margin-bottom: 32px;
+  padding-left: 40px;
   fill: var(--whit);
   display: flex;
   gap: 32px;
 }
 
-.rd-svg {
-  width: 32px;
-  height: 32px;
+.rd-btn-div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+  max-width: 250px;
+  margin: 0 auto;
+  padding-bottom: 40px;
 }
 
 .rd-btn {
   border: 2px solid var(--whit);
   border-radius: 25px;
+  padding: 14px 24px;
+  color: var(--akzent-yellow);
+  background-color: var(--main-button);
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0.02em;
 }
+/* 
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .restaurant-desk {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('../../img/Mobile/Rest-desk/rest-desk-img4t@1x.webp');
+    position: relative;
+    width: 100%;
+  }
+
+  .rd-text-div {
+    padding-left: 278px;
+  }
+
+  .rd-header {
+    font-size: 64px;
+    line-height: 69px;
+  }
+
+  .rd-text {
+    width: 460px;
+  }
+
+  .rd-scroll {
+    padding-left: 270px;
+  }
+
+  .rd-scroll-btn {
+    padding-left: 310px;
+  }
+
+  .rd-btn-div {
+    position: absolute;
+    top: 375px;
+    left: 42px;
+    margin: 0 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .restaurant-desk {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+      url('../../img/Mobile/Rest-desk/rest-desk-img4d@1x.webp');
+    position: relative;
+  }
+
+  .rd-text-div {
+    padding-left: 278px;
+  }
+
+  .rd-header {
+    font-size: 64px;
+    line-height: 69px;
+  }
+
+  .rd-text {
+    width: 460px;
+  }
+
+  .rd-scroll {
+    padding-left: 270px;
+    gap: 86px;
+  }
+
+  .rd-scroll-btn {
+    padding-left: 310px;
+  }
+
+  .rd-btn-div {
+    position: absolute;
+    top: 375px;
+    left: 42px;
+    margin: 0 0;
+  }
+} */

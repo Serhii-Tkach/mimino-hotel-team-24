@@ -1,7 +1,7 @@
-<div class="container">
-  <section class="restaurant-desk">
+<section class="restaurant-desk">
+  <div class="container">
     <div class="rd-text-div">
-      <h2 class="rd-header">MIMINO</h2>
+      <h2 class="rd-header">MIMIHO</h2>
       <p class="rd-name">Ресторан</p>
       <p class="rd-text">
         Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
@@ -9,28 +9,46 @@
       </p>
     </div>
     <div class="rd-scroll">
-      <img src="../img/image-1.jpg" alt="meat" />
-      <img src="../img/image-2.jpg" alt="second-pic" />
+      <img
+        srcset="
+          ../img/Mobile/Rest-desk/rest-desk-img1@1x.webp 1x,
+          ../img/Mobile/Rest-desk/rest-desk-img1@2x.webp 2x,
+          ../img/Mobile/Rest-desk/rest-desk-img1@3x.webp 3x
+        "
+        src="../img/Mobile/Rest-desk/rest-desk-img1@1x.webp"
+        alt="meat"
+      />
+      <img
+        srcset="
+          ../img/Mobile/Rest-desk/rest-desk-img2@1x.webp 1x,
+          ../img/Mobile/Rest-desk/rest-desk-img2@2x.webp 2x,
+          ../img/Mobile/Rest-desk/rest-desk-img2@3x.webp 3x
+        "
+        src="../img/Mobile/Rest-desk/rest-desk-img2@1x.webp"
+        alt="meat-with-bread"
+        class="rd-scroll-short-img"
+      />
+      <img
+        srcset="
+          ../img/Mobile/Rest-desk/rest-desk-img3@1x.webp 1x,
+          ../img/Mobile/Rest-desk/rest-desk-img3@2x.webp 2x,
+          ../img/Mobile/Rest-desk/rest-desk-img3@3x.webp 3x
+        "
+        src="../img/Mobile/Rest-desk/rest-desk-img3@1x.webp"
+        alt="snacks"
+      />
     </div>
     <div class="rd-scroll-btn">
-      <svg class="rd-svg">
-        <use
-          href="../img/icons.svg#icon-vector-left"
-          width="32px"
-          height="32px"
-        ></use>
+      <svg class="rd-svg" width="32px" height="32px">
+        <use href="/img/symbol-defs.svg#icon-arrow-left"></use>
       </svg>
-      <svg class="rd-svg">
-        <use
-          href="../img/icons.svg#icon-vector-right"
-          width="32px"
-          height="32px"
-        ></use>
+      <svg class="rd-svg" width="32px" height="32px">
+        <use href="/img/symbol-defs.svg#icon-arrow-right"></use>
       </svg>
     </div>
     <div class="rd-btn-div">
       <button type="button" class="rd-btn">Забронювати столик</button>
       <button type="button" class="rd-btn">Переглянути меню</button>
     </div>
-  </section>
-</div>
+  </div>
+</section>
