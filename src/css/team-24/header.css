@@ -1,3 +1,7 @@
+:root {
+  --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .container {
   position: relative;
 }
@@ -41,11 +45,20 @@
   line-height: 1.21;
   letter-spacing: 0.02em;
   margin-right: 8px;
+
+  transition: color var(--transition-main);
+}
+
+.header-label:hover,
+.header-label:focus {
+  color: rgba(243, 198, 83, 0.7);
 }
 
 .header-phone {
   display: flex;
   align-items: center;
+
+  transition: border var(--transition-main);
 }
 
 .header-number {
@@ -56,13 +69,33 @@
   display: none;
 }
 
-.header-icon, .header-social-icon {
+.header-icon {
   fill: var(--akzent-yellow);
+  transition: fill var(--transition-main);
+}
+
+
+
+.header-social-icon {
+  fill: rgba(243, 198, 83, 0.7);
+  transition: fill var(--transition-main);
+}
+
+.header-social-icon:hover,
+.header-social-icon:focus {
+  fill: var(--akzent-yellow);
+}
+
+@media screen and (max-width: 767px) {
+  .header-icon:hover, .header-icon:focus {
+    fill: rgba(243, 198, 83, 0.7);
+  }
 }
 
 @media screen and (min-width: 768px) {
   .header-flex {
     padding-top: 24px;
+    width: 96%;
   }
 
   .logo {
@@ -84,13 +117,18 @@
     border-radius: 2px;
   }
 
+  .header-phone:hover,
+  .header-phone:focus {
+    border: 1px solid var(--akzent-yellow);
+  }
+
   .header-icon {
     margin-right: 4px;
   }
 
   .header-number {
     display: block;
-
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.21;
     letter-spacing: 0.02em;
@@ -114,7 +152,5 @@
 
   .social-item:not(:last-child) {
     margin-right: 22px;
-  } 
+  }
 }
-
-
