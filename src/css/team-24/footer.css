@@ -15,7 +15,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
-    line-height: 1.07em;
+    line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--akzent-yellow)
 }
@@ -38,6 +38,7 @@
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     color: var(--akzent-yellow);
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -61,6 +62,11 @@
     display: flex;
     height: 100%;
     width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 50%;
@@ -119,6 +125,7 @@
 
     .footer-logo-first {
         margin-right: 163px;
+        font-size: 64px;
     }
 
     .footersoc-link {
