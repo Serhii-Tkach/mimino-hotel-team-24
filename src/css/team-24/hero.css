@@ -46,11 +46,12 @@
 }
 
 .hero-title {
+  width: 303px;
   font-family: 'Mimino', sans-serif;
   font-size: 96px;
   line-height: 1.07;
   letter-spacing: 0.3em;
-  margin-bottom: 24px;
+  margin: 0 auto 24px;
   padding-top: 181px;
 }
 
@@ -72,6 +73,7 @@
 }
 
 .hero-btn {
+  display: block;
   font-weight: 700;
   line-height: 1.21;
   letter-spacing: 0.02em;
@@ -80,7 +82,7 @@
   padding: 12px 24px;
   border: 2px solid var(--whit);
   border-radius: 25px;
-  margin-bottom: 102px;
+  margin: 0 auto 61px;
 
   transition: background-color var(--transition-main), border var(--transition-main);
 }
@@ -97,12 +99,14 @@
 .hero-location {
   display: flex;
   align-items: center;
+  width: 210px;
   font-weight: 400;
   font-size: 12px;
+  color: var(--text-three-color);
   line-height: 1.21;
   letter-spacing: 0.01em;
   text-align: left;
-  padding: 7px;
+  padding: 8px 3px;
   border: 1px solid rgba(243, 198, 83, 0.7);
   border-radius: 2px;
 
@@ -115,8 +119,6 @@
 
 .location-mobile {
   position: absolute;
-  top: 64px;
-  right: 15px;
 }
 
 .hero-icon {
@@ -125,10 +127,8 @@
 }
 
 .hero-social-list {
-  position: absolute;
-  left: 15px;
-  bottom: 20px;
   display: flex;
+  padding-bottom: 20px;
 }
 
 .social-item:not(:last-child) {
@@ -144,13 +144,14 @@
   fill: var(--akzent-yellow)
 }
 
-@media screen and (max-width: 767px) {
-  .location-tablet {
-    display: none;
+@media screen and (max-width: 1023px) {
+  .location-mobile {
+    top: 64px;
+    right: 15px;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .hero-section {
     background-image: linear-gradient(
         to right,
@@ -187,6 +188,7 @@
   }
 
   .hero-title {
+    width: 404px;
     font-size: 128px;
     padding-top: 188px;
     margin-bottom: 16px;
@@ -207,22 +209,28 @@
   }
 
   .hero-btn {
-    margin-bottom: 64px;
+    display: inline-block;
+    margin-bottom: 28px;
   }
 
   .hero-btn:first-child {
     margin-right: 40px;
   }
 
-  .location-mobile {
-    display: none;
+  .hero-location {
+    font-size: 16px;
+    width: 285px;
+    padding: 9px 8px;
   }
 
-  .location-tablet {
-    width: fit-content;
-    position: absolute;
+  .hero-icon {
+    margin-right: 10px;
+  }
+
+  .location-mobile {
     left: 15px;
-    bottom: 11%;
+    bottom: 77px;
+    
   }
 }
 
@@ -271,8 +279,12 @@
     margin-bottom: 64px;
   }
 
-  .hero-location {
-    bottom: 9%;
+  .hero-btn {
+    margin-bottom: 65px;
+  }
+
+  .location-mobile {
+    bottom: 65px;
   }
 
   .hero-social-list {
