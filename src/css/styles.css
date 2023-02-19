@@ -58,13 +58,13 @@
     --line-height-body: 1.25;
 
     /* letter-spacing */
-    --letter-spacing-body: 0.02;
+    --letter-spacing-body: 0.02em;
 }
 
 body {
   margin: 0;
   background-color: var(--lemon);
-  color: var(--text-1-color);
+  color: var(--text-one-color);
 
   font-family: Montserrat, sans-serif;
   font-weight: var(--font-weight-body);
