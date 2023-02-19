@@ -1,5 +1,16 @@
-.text {
-    background-color: aquamarine;
-    border: 3px solid tomato;
-    width: 200px;
+.res_title-text_l {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.15;
+    color: #B4B4B4;
+}
+
+.res_title-text_ll {
+    font-family: 'Mimino';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #494848;
 }
