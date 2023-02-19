@@ -43,5 +43,11 @@
 <symbol id="arrow-right-room-desc" viewBox="0 0 56 32">
 <path d="m40.583 0-2.67 2.689 11.329 11.409H.001v3.803h49.241L37.913 29.31l2.67 2.689 15.888-16-15.888-16z"/>
 </symbol>
+<symbol id="hotel-desc-arrow-left" viewBox="0 0 55 32">
+<path d="M53.482 14.222H7.122L17.788 3.556l-2.514-2.514L.316 16l14.958 14.958 2.514-2.514L7.122 17.778h46.36v-3.556z"/>
+</symbol>
+<symbol id="hotel-desc-arrow-right" viewBox="0 0 53 32">
+<path d="m38.208 1.042-2.514 2.514L46.36 14.222H0v3.556h46.36L35.694 28.444l2.514 2.514L53.166 16 38.208 1.042z"/>
+</symbol>
 </defs>
 </svg>
