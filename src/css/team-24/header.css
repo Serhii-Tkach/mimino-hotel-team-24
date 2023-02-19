@@ -87,6 +87,28 @@
   fill: var(--akzent-yellow);
 }
 
+/* Add heder from 320 to 370 */
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .header-flex {
+    width: 92%;
+  }
+
+  .header-nav {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .nav-restaurant {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .location-mobile {
+    top: 76px;
+  }
+}
+
 @media screen and (max-width: 1024px) {
   .header-icon:hover, .header-icon:focus {
     fill: rgba(243, 198, 83, 0.7);

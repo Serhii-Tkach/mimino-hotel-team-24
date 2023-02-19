@@ -55,6 +55,15 @@
   padding-top: 181px;
 }
 
+/* Hero center */
+
+@media screen and (min-width: 320px) and (max-width: 340px) {
+  .hero-title {
+    width: 290px;
+    font-size: 92px;
+  }
+}
+
 .hero-secondary-title {
   font-weight: 600;
   font-size: 16px;
@@ -144,7 +153,14 @@
   fill: var(--akzent-yellow)
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .location-mobile {
+    top: 86px;
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 1023px) {
   .location-mobile {
     top: 64px;
     right: 15px;
