@@ -3,6 +3,7 @@
     padding-top: 32px;
     padding-bottom: 32px;
     text-align: right;
+    outline: 2px solid tomato;
     
 }
 
@@ -34,11 +35,6 @@ color: var(--black);
 margin-bottom: 12px;
 }
 
-.paragraph{
-    padding-left: 98px;
-    padding-right: 74px;
-    text-align: left;
-}
 
 .triple-room-paragraph{
 font-family: 'Montserrat';
@@ -47,7 +43,7 @@ font-size: 12px;
 color: var(--text-one-color);
 
 margin-bottom: 32px;
-max-width: 242px;
+width: 242px;
 }
 
 .triple-room-svg{
@@ -133,6 +129,8 @@ gap: 32px;
 box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
 border-radius: 2px;}
 
+/* -------------------------------- */
+
 @media screen and (max-width: 767px) {
     .triple-room {
       overflow: hidden;
@@ -145,7 +143,7 @@ border-radius: 2px;}
     }
     .triple-room-slider-box {
       width: 286px;
-      margin-right: -120px;
+      margin-right: 30px;
       margin-bottom: 20px;
     }
     .triple-room-slider-img {
@@ -155,5 +153,199 @@ border-radius: 2px;}
       margin-right: 16px;
     }
   }
+
+/* -------------------------------- */
+
+  @media screen and (max-width: 1023px) {
+    .triple-room-text{
+      font-size: 20px;
+    }
+    .triple-room-paragraph{
+      width: 258px;
+      font-size: 12px;
+    }
+    .triple-room-slider-img {
+      border-radius: 2px;
+    }
+  }
+
+  /* -------------------------------- */
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    .triple-room{
+      text-align: right;
+      
+  }
+  
+   
+    .triple-room-img {
+      position: absolute;
+      margin-bottom: 0;
+      overflow: visible;
+      z-index: 1;
+      top: -86px;
+      left: 20px;
+      margin-bottom: 48px;
+    }
+
+    .triple-room-slider-box{
+      margin-bottom: 32px;
+    }
+
+
+    .triple-room-text {
+      font-size: 26px;
+      margin-bottom: 4px;
+    }
+    .triple-room-title {
+      font-size: 64px;
+      margin-bottom: 62px;
+    }
+    .triple-room-second-title {
+      font-size: 26px;
+      line-height: 1.15;
+      margin-bottom: 16px;
+    }
+    .triple-room-paragraph {
+      width: 240px;
+      font-size: 16px;
+    }
+
+
+  }
+
+ /* -------------------------------- */
+
+ 
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .triple-room-img {
+    position: absolute;
+    margin-bottom: 0;
+    overflow: visible;
+    z-index: 1;
+    top: -96px;
+    left: 50px;
+  }
+  .triple-room-text {
+    margin-bottom: 4px;
+  }
+  .triple-room-title {
+    font-size: 64px;
+
+    margin-bottom: 62px;
+  }
+  .triple-room-second-title{
+    font-size: 30px;
+    line-height: 1.15;
+
+    margin-bottom: 16px;
+  }
+  .triple-room-paragraph {
+    width: 439px;
+    font-size: 16px;
+  }
+}
+
+ /* -------------------------------- */
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .triple-room-section {
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
+  .triple-room-paragraph {
+    margin-bottom: 174px;
+  }
+  .triple-room-slider-box {
+    margin-bottom: 32px;
+  }
+  .triple-room-slider-img:not(:last-child) {
+    margin-right: 40px;
+  }
+  .triple-room-arrow {
+    margin-left: 330px;
+  }
+  .triple-room-img-mob,
+  .triple-room-img-desk,
+  .triple-room-item-mob,
+  .triple-room-item-desk {
+    display: none;
+  }
+}
+
+ /* -------------------------------- */
+
+
+  @media screen and (min-width: 768px) {
+    .triple-room-item-mob,
+    .triple-room-img-mob {
+      display: none;
+    }
+    .triple-room-slider {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+    }
+    .triple-room-item {
+      display: flex;
+      justify-content: space-between;
+     
+    }
+    .triple-room-nav {
+      display: flex;
+    }
+  }
+
+   /* -------------------------------- */
+
+  @media screen and (min-width: 1280px) {
+    .triple-room{
+      padding-top: 72px;
+      padding-bottom: 40px;
+    }
+    .triple-room-img-tab,
+    .triple-room-item-mob,
+    .triple-room-item-tab {
+      display: none;
+    }
+    .triple-room-img {
+      position: absolute;
+      margin-bottom: 0;
+      overflow: visible;
+      z-index: 1;
+      top: -104px;
+      left: 80px;
+    }
+    .triple-room-img {
+      box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
+    }
+    .triple-room-text{
+      font-size: 32px;
+    }
+    .triple-room-title {
+      font-size: 64px;
+      margin-bottom: 72px;
+    }
+    .triple-room-second-title {
+      font-size: 36px;
+      margin-bottom: 24px;
+    }
+    .triple-room-paragraph {
+      width: 400px;
+      font-size: 16px;
+      margin-bottom: 188px;
+    }
+    .triple-room-slider-box {
+      display: flex;
+      margin-bottom: 40px;
+    }
+    .triple-room-slider-img:not(:last-child) {
+      margin-right: 40px;
+    }
+    .triple-room-arrow {
+      align-self: flex-end;
+    }
+  }
+  
 
  
