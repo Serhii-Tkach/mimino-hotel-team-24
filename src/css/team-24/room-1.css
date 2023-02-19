@@ -1,3 +1,10 @@
+.room-one {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.room-one-container {
+    position: relative;
+}
 .room-one-pre-title {
     margin-bottom: 8px;
 
@@ -30,7 +37,14 @@
     max-width: 258px;
     margin-bottom: 32px;
 
+    font-weight: 600;
     font-size: 12px;
+}
+.room-one-img-tab,
+.room-one-img-desktop,
+.room-one-button-tab,
+.room-one-button-desktop {
+    display: none;
 }
 .room-one-img-general {
     margin-bottom: 32px;
@@ -114,5 +128,135 @@ a.room-one-link-btn {
     background-color: var(--whit);
     border: 2px solid #F3C653;
     border-radius: 25px;
+}
+.room-one-btn-none {
+    background-color: transparent;
+    color: none;
+    border: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .room-one {
+        padding-top: 62px;
+        padding-bottom: 40px;
+    }
+    .room-one-pre-title {
+        margin-bottom: 4px;
+        font-size: 32px;
+    }
+    .room-one-logo {
+        margin-bottom: 62px;
+        font-size: 64px;
+    }
+    .room-one-title {
+        margin-bottom: 16px;
+        font-size: 30px;
+    }
+    .room-one-description {
+        max-width: 439px;
+        margin-bottom: 176px;
+        font-size: 16px;
+    }
+    .room-one-img-desktop,
+    .room-one-img-general,
+    .room-one-button-desktop,
+    .room-one-button-mob {
+        display: none;
+    }
+    .room-one-img-tab {
+        display: block;
+        position: absolute; 
+        left: 512px;
+        top: -94px;
+        z-index: 1;
+
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+    .room-one-button-tab {
+        display: flex;
+        gap: 266px;
+    }
+    .room-one-click-tab {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 32px;
+    }
+    .room-one-slader-tab {
+        display: flex;
+        gap: 40px;
+    }
+    .room-one-slader-one-tab {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+    .room-one-slader-two-tab {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .room-one {
+        padding-top: 72px;
+        padding-bottom: 40px;
+    }
+    .room-one-pre-title {
+        margin-bottom: 4px;
+        font-size: 32px;
+    }
+    .room-one-logo {
+        margin-bottom: 72px;
+        font-size: 64px;
+    }
+    .room-one-title {
+        margin-bottom: 24px;
+        font-size: 36px;
+    }
+    .room-one-description {
+        max-width: 400px;
+        margin-bottom: 188px;
+        font-size: 16px;
+    }
+    .room-one-img-tab,
+    .room-one-img-general,
+    .room-one-button-tab,
+    .room-one-button-mob {
+        display: none;
+    }
+    .room-one-img-desktop {
+        display: block;
+        position: absolute;
+        left: 640px;
+        top: -104px;
+        z-index: 1;
+
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+    .room-one-button-desktop {
+        display: flex;
+        align-items: center;
+        gap: 326px;
+    }
+    .room-one-click-desktop {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 40px;
+    }
+    .room-one-slader-desktop {
+        display: flex;
+        gap: 40px;
+    }
+    .room-one-slader-one-desktop {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
+    .room-one-slader-two-desktop {
+        box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+        border-radius: 2px;
+    }
 }
 
