@@ -8,7 +8,7 @@
 
 .title-text_mimiho {
     font-family: 'Mimino';
-    font-weight: 700;
+
     font-size: 40px;
     line-height: 43px;
     letter-spacing: 0.3em;
@@ -16,11 +16,8 @@
 }
 
 .res_text-desc {
-    font-family: 'Montserrat';
     font-weight: 600;
     font-size: 12px;
-    line-height: 1.25;
-    letter-spacing: 0.02em;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
