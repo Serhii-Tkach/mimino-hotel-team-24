@@ -1,18 +1,26 @@
+.container .restaurant-menu {
+  background-color: var(--dark-lemon);
+}
+
 .restaurant-menu {
-  background-color: var(--lemon);
+  background-color: var(--dark-lemon);
+  color: var(--black);
 }
 
 .menu-header {
-  font-family: 'Times New Roman';
-  font-weight: 700;
+  font-family: 'Times New Roman', serif;
   font-size: 32px;
   line-height: 37px;
-  margin-top: 32px;
+  padding-top: 32px;
+}
+
+.menu-div {
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-chapter {
-  font-family: 'Times New Roman';
-  font-weight: 700;
+  font-family: 'Times New Roman', serif;
   font-size: 20px;
   line-height: 23px;
   margin-top: 32px;
@@ -50,7 +58,6 @@
 }
 
 .menu-item-price {
-  font-weight: 700;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.02em;
@@ -60,7 +67,7 @@
 .menu-btn-div {
   display: flex;
   justify-content: center;
-  margin: 32px 0;
+  padding: 32px 0;
 }
 
 .menu-btn {
@@ -72,4 +79,41 @@
   font-weight: 700;
   line-height: 20px;
   letter-spacing: 0.02em;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .menu-header {
+    padding-top: 58px;
+    padding-left: 20px;
+  }
+
+  .menu-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 88px;
+  }
+
+  .menu-btn-div {
+    justify-content: flex-end;
+    padding: 40px 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .menu-header {
+    padding-top: 58px;
+    padding-left: 85px;
+  }
+
+  .menu-div {
+    flex-direction: row;
+    justify-content: center;
+    gap: 140px;
+  }
+
+  .menu-btn-div {
+    justify-content: flex-end;
+    padding-top: 32px;
+    padding-bottom: 60px;
+  }
 }
