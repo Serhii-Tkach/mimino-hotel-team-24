@@ -137,3 +137,8 @@
         font-size: 18px;
     }
 }
+@media screen and (max-width: 371px){
+    .room-desc-general-title{
+        font-size: 27px;
+        }
+}
