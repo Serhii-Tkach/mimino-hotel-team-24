@@ -75,7 +75,7 @@
 }
 
 /* tablet 1023 to 1279 */
-@media screen and (min-width: 1023px) and (max-width: 1279px){
+@media screen and (min-width: 1023px) and (max-width: 1280px){
     .room-desc{
         padding-top: 50px;
         padding-bottom: 40px;
@@ -119,4 +119,10 @@
         padding-top: 48px;
         padding-bottom: 40px;
     }
+}
+/* additional queries */
+@media screen and (max-width: 380px){
+    .room-desc-link{
+        align-items: initial;
+        }
 }
