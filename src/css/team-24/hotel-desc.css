@@ -1,5 +1,5 @@
 .hotel-desc{
-    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Mobile/Hotel_desc_img/hotel-desc-background@1x.webp);
+    background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Mobile/Hotel_desc/hotel-desc-background@1x.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,7 +39,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
     .hotel-desc{
-        background:  url(../../img/Mobile/Hotel_desc_img/hotel-desc-background@2x.webp);
+        background:  url(../../img/Mobile/Hotel_desc/hotel-desc-background@2x.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,7 +50,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 3dppx){
     .hotel-desc{
-        background: url(../../img/Mobile/Hotel_desc_img/hotel-desc-background@3x.webp);
+        background: url(../../img/Mobile/Hotel_desc/hotel-desc-background@3x.webp);
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -61,8 +61,7 @@
     flex-direction: row;
     gap: 20px;
     margin-top: 48px;
-    justify-content: center;
-    width: 376px;
+    justify-content: flex-end;
     margin-left: -80px;
    
 }
