@@ -1,11 +1,11 @@
 {
-  "name": "team-test-2",
+  "name": "mimino-hotel-team-24",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-test-2/",
+    "build": "vite build --base=/mimino-hotel-team-24/",
     "preview": "vite preview"
   },
   "devDependencies": {
