@@ -6,23 +6,22 @@
   padding-bottom: 32px;
 }
 .loc-hotel-brand {
-  font-family: "Film P3";
-  font-style: normal;
-  font-weight: 700;
+  font-family: 'Mimino';
+ 
   font-size: 40px;
   letter-spacing: 0.3em;
-  color: #494848;
+  color: var(--text-5-color);
 
   margin-bottom: 12px;
 }
 
 .loc-hotel-name {
-  font-family: "Montserrat";
-  font-style: normal;
+
   font-weight: 600;
-  font-size: 16px;
+ 
   letter-spacing: 0.02em;
-  color: #7a7a7a;
+
+  color: var(--text-1-color);
 
   margin-bottom: 16px;
 }
@@ -32,14 +31,14 @@
 }
 
 .loc-contact-item {
-  font-family: "Montserrat";
-  font-style: normal;
+ 
+  
   font-weight: 500;
   font-size: 20px;
 
   letter-spacing: 0.02em;
-  color: #c79002;
-
+ 
+color: var(--text-2-color);
   margin-bottom: 16px;
 
   display: flex;
@@ -103,12 +102,11 @@
 }
 
 .loc-contact-link {
-  font-family: "Montserrat";
-  font-style: normal;
+
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #494848;
+  color: (var(--text-5-color));
 }
 
 .loc-google-maps {
