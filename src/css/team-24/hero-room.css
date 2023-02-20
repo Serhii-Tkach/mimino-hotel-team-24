@@ -57,6 +57,10 @@
   fill: var(--akzent-yellow);
 }
 
+.hero-room-content {
+  width: 325px;
+}
+
 .hero-room-title {
   font-family: 'Times New Roman', Times, serif;
   font-size: 28px;
@@ -71,6 +75,32 @@
   letter-spacing: 1.21em;
   text-align: left;
   letter-spacing: 0.02em;
+  margin-bottom: 30px;
+}
+
+.hero-room-buttons {
+  padding-bottom: 40px;
+}
+
+.hero-room-btn {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.hero-room-btn:first-child {
+  margin: 0 0 0 auto;
+}
+
+
+.hero-room-list {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.hero-room-item:not(:last-child) {
+  margin-right: 0;
+  margin-bottom: 6px;
 }
 
 @media screen and (min-width: 1024px) {
@@ -111,6 +141,45 @@
         url(../../img/Tablet/hero/hero-hotel-tablet@3x.webp);
     }
   }
+
+  .hero-slider {
+    padding-top: 225px;
+    margin-bottom: 88px;
+  }
+
+  .hero-room-content {
+    width: 100%;
+  }
+
+  .hero-room-title {
+    font-size: 36px;
+    margin-bottom: 24px;
+  }
+
+  .hero-room-disc {
+    width: 400px;
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+
+  .hero-room-buttons {
+    padding-bottom: 62px;
+  }
+
+  .location-mobile-room {
+    bottom: 22px;
+  }
+
+  .hero-room-list {
+    display: flex;
+    padding-bottom: 31px;
+    left: 373px;
+  }
+
+  .hero-room-item:not(:last-child) {
+    margin-right: 22px;
+    margin-bottom: 0px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -150,5 +219,29 @@
         ),
         url(../../img/Desktop/hero/hero-hotel-desktop@3x.webp);
     }
+  }
+
+  .hero-slider {
+    padding-top: 265px;
+    margin-bottom: 72px;
+  }  
+
+  .location-mobile-room {
+    display: none;
+  }  
+
+  .hero-room-list {
+    display: none;
+  }
+
+  .hero-room-disc {
+    padding-bottom: 48px;
+  }
+
+  .hero-room-buttons {
+    position: absolute;
+    right: 15px;
+    bottom: 66px;
+    padding-bottom: 0;
   }
 }
