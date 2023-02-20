@@ -9,6 +9,7 @@
     line-height: 1.15;
     margin-bottom: 16px;
     color: var(--black);
+    text-transform: uppercase;
 }
 .room-desc-list{
     margin-top: 32px;
@@ -23,6 +24,7 @@
     line-height: 1.16;
     margin-bottom: 16px;
     color: var(--black);
+    text-transform: uppercase;
 }
  
 .room-desc-text{
@@ -42,7 +44,6 @@
 }
 .room-desc-button{
     background-color: var(--black);
-    height: 64px;
     border-radius: 25px;
     border: 1px solid var(--akzent-yellow);
     font-weight: 500;
@@ -125,4 +126,14 @@
     .room-desc-link{
         align-items: initial;
         }
+}
+@media screen and (max-width: 340px){
+    .room-desc-button{
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 330px){
+    .room-desc-button{
+        font-size: 18px;
+    }
 }
