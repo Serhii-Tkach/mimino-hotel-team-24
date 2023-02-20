@@ -1,11 +1,11 @@
 {
-  "name": "team-light-balance",
+  "name": "mimino-hotel-team-24",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/team-light-balance/",
+    "build": "vite build --base=/mimino-hotel-team-24/",
     "preview": "vite preview"
   },
   "devDependencies": {
