@@ -1,0 +1,253 @@
+.hotel-section-format {
+    background-color: #FFFDEE;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.hotel-ghost-text,
+.hotel-title {
+    text-align: right;
+}
+
+
+.hotel-ghost-text {
+    font-family: 'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #B4B4B4;
+    margin-bottom: 6px;
+}
+
+.hotel-title {
+    font-family: 'Mimino';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #494848;
+    margin-bottom: 16px;
+    margin-right: -10px;
+}
+
+.hotel-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    margin-bottom: 28px;
+    margin-left: auto;
+    width: 242px;
+}
+
+.hotel-text-and-pic {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 21px;
+}
+
+
+.hotel-brown-edition {
+    width: 200px;
+    color: #C79002;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Components */
+
+.hotel-pic-shadow {
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
+/* slider */
+.hotel-slider {
+    height: 298px;
+    position: relative;
+}
+
+
+.hotel-slider-images {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    left: -180px;
+}
+
+.hotel-button {
+    margin-top: auto;
+
+}
+
+.hotel-btn-click {
+    display: flex;
+    gap: 33px;
+    position: absolute;
+    bottom: 0;
+}
+
+/*  */
+.hotel-pic-tab,
+.hotel-pic-dt {
+    display: none;
+}
+
+/*  */
+
+
+@media screen and (min-width: 1024px) {
+    .hotel-ghost-text {
+        margin-top: 100px;
+    }
+
+    .hotel-section-format {
+        overflow: visible;
+        height: 1238px;
+    }
+
+    .hotel-pic-mobile {
+        display: none;
+    }
+
+    .hotel-pic-tab {
+        display: block;
+    }
+
+    .hotel-apartment-format {
+        position: absolute;
+        top: -24px;
+        right: 470px;
+    }
+
+    .hotel-text {
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #7A7A7A;
+        margin-bottom: 142px;
+        width: 419px;
+    }
+
+    .hotel-title {
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 69px;
+    }
+
+    .hotel-ghost-text {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 37px;
+    }
+
+    .hotel-brown-edition {
+        width: 312px;
+        color: #C79002;
+        margin-right: 0;
+        margin-bottom: 0;
+    }
+
+    .hotel-text-and-pic {
+        display: flex;
+        position: relative;
+        align-items: center;
+        justify-content: right;
+        margin-top: 0;
+        margin-bottom: 0;
+        gap: 48px;
+    }
+
+    .hotel-slider {
+        height: 220px;
+        position: relative;
+    }
+
+    .hotel-slider-images {
+        gap: 40px;
+        left: 0;
+        top: -28px;
+    }
+
+    .hotel-btn-click {
+        display: flex;
+        gap: 32px;
+        position: absolute;
+        bottom: -20px;
+    }
+
+    @media screen and (min-width: 1200px) {
+
+        .hotel-ghost-text {
+            margin-top: 120px;
+        }
+
+        .hotel-section-format {
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        .hotel-pic-tab,
+        .hotel-pic-mobile {
+            display: none;
+        }
+
+        .hotel-pic-dt {
+            display: block;
+        }
+
+        .hotel-apartment-format-dt {
+            position: absolute;
+            top: -144px;
+            left: 120px;
+        }
+
+        .hotel-section-format {
+            height: 1155px;
+        }
+
+        .hotel-text {
+            margin-bottom: 182px;
+            width: 488px;
+        }
+
+        .hotel-brown-edition {
+            width: 311px;
+            color: #C79002;
+            margin-right: 0;
+            margin-bottom: 0;
+            margin-top: 170px;
+        }
+
+        .hotel-slider-images {
+            left: 0;
+            top: -180px;
+        }
+
+        .hotel-text-and-pic {
+            position: relative;
+            align-items: normal;
+            justify-content: right;
+            gap: 45px;
+        }
+
+        .hotel-slider {
+            height: 200px;
+        }
+
+        .hotel-btn-click {
+            bottom: 50px;
+        }
+
+
+    }
+}
