@@ -93,10 +93,12 @@
   border-radius: 25px;
   margin: 0 auto 61px;
 
-  transition: background-color var(--transition-main), border var(--transition-main);
+  transition: background-color var(--transition-main),
+    border var(--transition-main);
 }
 
-.hero-btn:hover, .hero-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
   background-color: var(--whit);
   border: 2px solid var(--akzent-yellow);
 }
@@ -122,7 +124,8 @@
   transition: border var(--transition-main);
 }
 
-.hero-location:hover, .hero-location:focus {
+.hero-location:hover,
+.hero-location:focus {
   border: 1px solid var(--akzent-yellow);
 }
 
@@ -142,21 +145,35 @@
 
 .social-item:not(:last-child) {
   margin-right: 22px;
-} 
+}
 
 .hero-social-icon {
   fill: rgba(243, 198, 83, 0.7);
   transition: fill var(--transition-main);
 }
 
-.hero-social-icon:hover, .hero-social-icon:focus {
-  fill: var(--akzent-yellow)
+.hero-social-icon:hover,
+.hero-social-icon:focus {
+  fill: var(--akzent-yellow);
 }
 
 @media screen and (min-width: 320px) and (max-width: 370px) {
   .location-mobile {
     top: 86px;
     right: 15px;
+  }
+
+  .hero-title {
+    width: 258px;
+    font-size: 82px;
+  }
+
+  .hero-secondary-title {
+    font-size: 12px;
+  }
+
+  .hero-paragraph {
+    font-size: 30px;
   }
 }
 
@@ -176,7 +193,7 @@
       ),
       url(../../img/Tablet/hero/hero-main-tablet@1x.webp);
   }
-  
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -189,7 +206,7 @@
         url(../../img/Tablet/hero/hero-main-tablet@2x.webp);
     }
   }
-  
+
   @media (min-device-pixel-ratio: 3),
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
@@ -209,7 +226,7 @@
     padding-top: 188px;
     margin-bottom: 16px;
   }
-  
+
   .hero-secondary-title {
     font-size: 20px;
     margin-bottom: 56px;
@@ -246,7 +263,6 @@
   .location-mobile {
     left: 15px;
     bottom: 77px;
-    
   }
 }
 
@@ -259,7 +275,7 @@
       ),
       url(../../img/Desktop/hero/hero-main-desktop@1x.webp);
   }
-  
+
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -272,7 +288,7 @@
         url(../../img/Desktop/hero/hero-main-desktop@2x.webp);
     }
   }
-  
+
   @media (min-device-pixel-ratio: 3),
     (min-resolution: 288dpi),
     (min-resolution: 3dppx) {
@@ -307,4 +323,3 @@
     display: none;
   }
 }
-
