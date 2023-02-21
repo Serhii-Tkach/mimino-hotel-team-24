@@ -272,3 +272,150 @@
     align-self: flex-end;
   }
 }
+/* MODAL */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+.double-room-modal {
+  width: 414px;
+  height: 572px;
+  background-color: var(--dark-lemon);
+  padding: 16px;
+  border: 1px solid tomato;
+}
+.room-close-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding: 0;
+  border: 0;
+}
+
+.room-modal-title,
+.room-modal-subtitle {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+}
+.room-modal-title {
+  color: var(--black);
+  text-align: center;
+  line-height: 1.15;
+  margin-bottom: 40px;
+}
+.room-modal-subtitle {
+  line-height: 1.16;
+  color: var(--text-seven-color);
+  margin-bottom: 28px;
+}
+.room-modal-category {
+  margin-bottom: 20px;
+}
+.room-modal-category,
+.room-modal-label {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-two-color);
+}
+.room-modal-label {
+  margin-left: 15px;
+}
+.room-modal-nights,
+.room-modal-prices {
+  margin-bottom: 8px;
+  border: 1px solid var(--text-two-color);
+  background-color: transparent;
+  outline: none;
+}
+.room-modal-nights:focus,
+.room-modal-prices:focus {
+  outline: 1px solid var(--text-two-color);
+}
+.room-modal-select {
+  position: relative;
+  margin-bottom: 20px;
+}
+.room-modal-nights {
+  padding: 13px 15px;
+}
+.room-modal-arrow {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  fill: var(--text-two-color);
+  pointer-events: none;
+}
+.room-modal-value {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.room-modal-prices {
+  padding: 18px 12px 8px;
+  color: var(--text-seven-color);
+  font-weight: inherit;
+  font-size: 24px;
+}
+
+.room-modal-btn {
+  width: 100%;
+  padding: 20px 64px;
+  border: 1px solid var(--akzent-yellow);
+  border-radius: 2px;
+  background-color: var(--black);
+  margin-bottom: 44px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.room-modal-btn:hover,
+.room-modal-btn:focus {
+  background-color: var(--akzent-yellow);
+  color: var(--black);
+  border: 1px solid var(--akzent-yellow);
+  border-radius: 2px;
+}
+.room-modal-nights,
+.room-modal-prices::placeholder {
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--text-seven-color);
+  font-size: 24px;
+  font-weight: 700;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+  .room-modal-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) {
+  .double-room-modal {
+    width: 712px;
+    padding: 60px;
+    position: relative;
+  }
+
+  .room-close-btn {
+    position: absolute;
+    right: 16px;
+    top: 16px;
+  }
+  .room-modal-form {
+    display: flex;
+  }
+
+  .room-modal {
+    width: calc((100% - 16px) / 2);
+    margin-right: 16px;
+  }
+
+  .room-modal:nth-child(2) {
+    margin-right: 0;
+  }
+}
