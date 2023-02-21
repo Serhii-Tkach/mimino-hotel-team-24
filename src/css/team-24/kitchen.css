@@ -96,6 +96,7 @@
 .btn-click-list {
   display: flex;
   padding-top: 20px;
+}
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
 }
@@ -196,7 +197,7 @@
     letter-spacing: 0.02em;
     margin: 0;
   }
-  
+
   .kitchen-image-one-mobile,
   .kitchen-image-one-tablet {
     display: none;
