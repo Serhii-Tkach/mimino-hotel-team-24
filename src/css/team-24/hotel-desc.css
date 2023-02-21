@@ -67,6 +67,9 @@
 .hotel-desc-img-tablet{
     display: none;
 }
+.hotel-desc-img-desktop{
+    display: none;
+}
 .hotel-desc-icon-list{
     display: flex;
     gap: 34px;
@@ -113,6 +116,7 @@
         padding-left: 265px;
     }
 }
+/* 1023 to 1279 */
 @media screen and (min-width: 1023px) and (max-width: 1279px){
  .hotel-desc-img-mobile{
     display: none;
@@ -181,5 +185,72 @@
     padding-left: 0px;
     margin-top: 8px;
     margin-left: 300px;
+   }
+}
+/* 1279 and upwards */
+@media screen and ( min-width: 1279px) {
+    .hotel-desc-img-desktop{
+        display: initial;
+    }
+    .hotel-desc-img-mobile{
+        display: none;
+    }
+    .hotel-desc{
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Desktop/Hotel_desc/hotel-desc-background@1x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    @media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+    .hotel-desc{
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Desktop/Hotel_desc/hotel-desc-background@2x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+  }
+  @media (min-device-pixel-ratio: 3),
+  (min-resolution: 192dpi),
+  (min-resolution: 3dppx){
+    .hotel-desc{
+        background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Desktop/Hotel_desc/hotel-desc-background@3x.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  } 
+  .hotel-desc-img-list{
+    justify-content: initial;
+    gap: 86px;
+    padding-left: 52px;
+  }
+  .hotel-desc-icon-list{
+    justify-content: initial;
+    padding-left: 680px;
+  }
+  .hotel-desc-button-list{
+    position: absolute;
+    top: 278px;
+    right: 47px;
+    left: 959px;
+   }
+   .hotel-desc-title-list{
+    padding-left: 290px;
+   }
+   .hotel-desc-title{
+    font-size: 64px;
+   }
+   .hotel-desc-subtitle{
+    font-size: 24px;
+    padding-left: 90px;
+   }
+   .hotel-desc-text{
+    width: 595px;
+    padding-left: 0px;
+    margin-top: 8px;
+    margin-left: 320px;
    }
 }
