@@ -1,0 +1,98 @@
+.hotel-section-format {
+    background-color: #FFFDEE;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+
+.hotel-ghost-text,
+.hotel-title {
+    text-align: right;
+}
+
+.hotel-text {
+    margin-left: auto;
+    width: 242px;
+}
+
+.hotel-ghost-text {
+    font-family:'Times New Roman';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #B4B4B4;
+    margin-bottom: 6px;
+}
+
+.hotel-title {
+    font-family: 'Mimino';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 43px;
+    letter-spacing: 0.3em;
+    color: #494848;
+    margin-bottom: 16px;
+    margin-right: -10px;
+}
+
+.hotel-text {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    color: #7A7A7A;
+    margin-bottom: 28px;
+}
+
+.hotel-text-and-pic{
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    gap: 21px;
+}
+
+
+.hotel-brown-edition {
+    width: 200px;
+    color: #C79002;
+    margin-right: auto;
+    margin-left: 0;
+}
+
+/* Components */
+
+.hotel-pic-shadow{
+    background: #DADADA;
+    box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 2px;
+}
+
+
+/* slider */
+.hotel-slider{
+    height: 298px;
+    position: relative;
+}
+
+
+.hotel-slider-images{
+    display: flex;
+    position: absolute;
+    gap: 20px;
+    left: -180px;
+}
+
+.hotel-button{
+margin-top: auto;
+
+}
+
+.hotel-btn-click{
+    display: flex;
+    gap: 33px;
+    position: absolute;
+    bottom: 0;
+}
