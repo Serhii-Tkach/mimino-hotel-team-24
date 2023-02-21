@@ -81,7 +81,7 @@
   letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .menu-header {
     padding-top: 58px;
     padding-left: 20px;
