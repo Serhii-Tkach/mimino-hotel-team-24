@@ -83,7 +83,7 @@
   letter-spacing: 0.02em;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
   .restaurant-desk {
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/Mobile/Rest-desk/rest-desk-img4t@1x.webp');
