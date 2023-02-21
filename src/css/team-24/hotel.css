@@ -183,6 +183,7 @@ top: -28px;
     position: absolute;
 bottom: -20px;
 }
+}
 
 @media screen and (min-width: 1200px) {
 
@@ -246,8 +247,6 @@ top: -180px;
 .hotel-btn-click {
     bottom: 50px;
 }
-
-
 }
-}
+
 
