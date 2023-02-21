@@ -1,0 +1,116 @@
+
+/* mobile first version as of now. Tablet and desctop are in progress */
+
+.location {
+  padding-top: 36px;
+  padding-bottom: 32px;
+}
+.loc-hotel-brand {
+  font-family: 'Mimino';
+ 
+  font-size: 40px;
+  letter-spacing: 0.3em;
+  color: var(--text-5-color);
+
+  margin-bottom: 12px;
+}
+
+.loc-hotel-name {
+
+  font-weight: 600;
+ 
+  letter-spacing: 0.02em;
+
+  color: var(--text-1-color);
+
+  margin-bottom: 16px;
+}
+
+.loc-contact-list {
+  list-style: none;
+}
+
+.loc-contact-item {
+ 
+  
+  font-weight: 500;
+  font-size: 20px;
+
+  letter-spacing: 0.02em;
+ 
+color: var(--text-2-color);
+  margin-bottom: 16px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.loc-contact-item:first-child {
+  gap: 22px;
+  width: fit-content;
+}
+
+.loc-contact-item:nth-child(2) {
+  gap: 54px;
+}
+
+.loc-contact-item:last-child {
+  margin-bottom: 0px;
+  width: 96%;
+}
+
+.loc-address {
+  margin-left: 123px;
+  height: 76px;
+  width: 100%;
+  display: block;
+}
+
+.loc-address-wrap {
+  background: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  width: 57%;
+  padding: 12px 8px 11px 44px;
+
+  position: relative;
+}
+
+.loc-link-wrap {
+  background: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+
+  width: 60%;
+  padding: 12px 8px 11px 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  position: relative;
+}
+
+ 
+.loc-icon {
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  transform: translateY(-50%);
+}
+
+.loc-contact-link {
+
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: (var(--text-5-color));
+}
+
+.loc-google-maps {
+  width: 100%;
+  min-height: 220px;
+  margin-top: 32px;
+}
