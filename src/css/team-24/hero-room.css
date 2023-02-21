@@ -1,3 +1,7 @@
+:root {
+  --transition-main: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .hero-section-room {
   background-image: linear-gradient(
       180deg,
@@ -89,7 +93,6 @@
 .hero-room-btn:first-child {
   margin: 0 0 0 auto;
 }
-
 
 .hero-room-list {
   position: absolute;
@@ -224,11 +227,11 @@
   .hero-slider {
     padding-top: 265px;
     margin-bottom: 72px;
-  }  
+  }
 
   .location-mobile-room {
     display: none;
-  }  
+  }
 
   .hero-room-list {
     display: none;
@@ -243,5 +246,149 @@
     right: 15px;
     bottom: 66px;
     padding-bottom: 0;
+  }
+}
+
+/* /////////////////////// */
+
+.modal-restaurant {
+  width: 414px;
+  padding: 16px;
+  outline: 2px solid tomato;
+}
+
+.modal-close-btn {
+  display: block;
+  margin-left: auto;
+  margin-bottom: 20px;
+  padding: 0;
+  border: 0;
+}
+
+.modal-title {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: var(--black);
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.modal-field {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.modal-field:nth-child(4) {
+  margin-bottom: 40px;
+}
+
+.field-input {
+  display: block;
+  width: 100%;
+  padding: 17px 12px;
+  border: 1px solid var(--text-two-color);
+  border-radius: 2px;
+  margin-bottom: 8px;
+  color: inherit;
+  background-color: transparent;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.field-input::placeholder,
+.field-select {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.05em;
+  color: #808080;
+}
+
+.field-label {
+  font-weight: 500;
+  font-size: 14px;
+  padding-left: 11px;
+  line-height: 1.21;
+  color: var(--text-two-color);
+}
+
+.modal-submit-btn {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.21;
+  padding: 20px 41px;
+  border: 1px solid var(--akzent-yellow);
+  border-radius: 2px;
+  margin-bottom: 45px;
+
+  transition: color var(--transition-main),
+    background-color var(--transition-main);
+}
+
+.modal-submit-btn:hover,
+.modal-submit-btn:focus {
+  color: var(--black);
+  background-color: var(--akzent-yellow);
+}
+
+.field-select {
+  appearance: none;
+}
+
+.modal-arrow-icon {
+  fill: var(--text-two-color);
+  position: absolute;
+  right: 12px;
+  top: 20px;
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .modal-restaurant {
+    width: 712px;
+  }
+
+  .modal-title {
+    font-size: 40px;
+  }
+
+  .modal-form {
+    padding: 0 60px 60px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .modal-field {
+    width: calc((100% - 16px) / 2);
+    margin-bottom: 28px;
+  }
+
+  .modal-field:nth-child(odd) {
+    margin-right: 16px;
+  }
+
+  .field-input {
+    padding: 18px 12px;
+  }
+
+  .field-input::placeholder,
+  .field-select {
+    font-size: 24px;
+  }
+
+  .field-label {
+    font-size: 16px;
+  }
+
+  .modal-submit-btn {
+    font-size: 24px;
+    width: 100%;
+    margin-bottom: 0;
   }
 }
