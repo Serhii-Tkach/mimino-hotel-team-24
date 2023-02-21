@@ -1,24 +1,27 @@
 
-/* mobile first version as of now. Tablet and desctop are in progress */
+
+/* ADAPTIVE VESION */
 
 .location {
   padding-top: 36px;
   padding-bottom: 32px;
+
 }
+
+
 .loc-hotel-brand {
   font-family: 'Mimino';
- 
   font-size: 40px;
+  line-height: 43px;
   letter-spacing: 0.3em;
-  color: var(--text-5-color);
+  color: var(--text-2-color);
 
   margin-bottom: 12px;
 }
 
 .loc-hotel-name {
-
   font-weight: 600;
- 
+
   letter-spacing: 0.02em;
 
   color: var(--text-1-color);
@@ -31,14 +34,15 @@
 }
 
 .loc-contact-item {
- 
-  
+  font-family: "Montserrat";
+  font-style: normal;
+
   font-weight: 500;
   font-size: 20px;
 
   letter-spacing: 0.02em;
- 
-color: var(--text-2-color);
+
+  color: var(--text-2-color);
   margin-bottom: 16px;
 
   display: flex;
@@ -62,20 +66,13 @@ color: var(--text-2-color);
 
 .loc-address {
   margin-left: 123px;
-  height: 76px;
-  width: 100%;
+
+  /* 
+  margin-right: auto; */
+
+  /*   
   display: block;
-}
-
-.loc-address-wrap {
-  background: #ffffff;
-  border: 0.5px solid #f3c653;
-  border-radius: 2px;
-
-  width: 57%;
-  padding: 12px 8px 11px 44px;
-
-  position: relative;
+   */
 }
 
 .loc-link-wrap {
@@ -83,17 +80,63 @@ color: var(--text-2-color);
   border: 0.5px solid #f3c653;
   border-radius: 2px;
 
-  width: 60%;
   padding: 12px 8px 11px 40px;
 
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 
   position: relative;
 }
 
+.loc-contact-link {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #494848;
+  font-style: normal;
+}
+
+.loc-address-wrap {
+  background: #ffffff;
+  border: 0.5px solid #f3c653;
+  border-radius: 2px;
+  height: auto;
+  padding-top: 8px;
+  position: relative;
+
+     margin-bottom: 32px;
+}
+
+.loc-address-link {
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  line-height: 20px;
+  color: #494848;
+  font-style: normal;
+  padding-left: 44px;
+  padding-right: 36px;
+  padding-bottom: 7px;
+  /* padding: 12px 8px 0px 44px;  */
+
  
+}
+
+.loc-google-maps {
+  width: 100%;
+  min-width: auto;
+  height: auto;
+  min-height: 220px;
+
+
+  border: 1px solid #BABABA;
+
+box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+border-radius: 2px;
+}
+
 .loc-icon {
   position: absolute;
   top: 50%;
@@ -101,16 +144,94 @@ color: var(--text-2-color);
   transform: translateY(-50%);
 }
 
-.loc-contact-link {
+@media screen and (min-width: 414px) {
+ 
 
-  font-weight: 400;
-  font-size: 14px;
-  letter-spacing: 0.02em;
-  color: (var(--text-5-color));
+.container {
+  width: 414px;
+}
+
+.loc-link-wrap {
+    max-width: 260px;
+  flex-direction: row;
+}
+
+.loc-address-wrap {
+  max-width: 260px;
+}
+}
+
+@media screen and (min-width: 1024px) {
+ 
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.location {
+    display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+padding-left: 47px;
+  padding-right: 47px;
+}
+
+
+.loc-contact-item {
+  
+  margin-bottom: 24px;
+  flex-direction: column;
+      align-items: flex-start;
+}
+
+
+
+.loc-contact-item:first-child {
+  gap: 8px;
+  width: fit-content;
+}
+
+.loc-contact-item:nth-child(2) {
+  gap: 8px;
+}
+
+
+.loc-address {
+    margin-left: 0px;
 }
 
 .loc-google-maps {
-  width: 100%;
-  min-height: 220px;
-  margin-top: 32px;
+  Width: 535px;
+Height: 412px;
 }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+ 
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+ }
+
+.location {
+   
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 64px;
+    padding-bottom: 74px;
+}
+
+}
+
+
+
+
+
+ 
+
