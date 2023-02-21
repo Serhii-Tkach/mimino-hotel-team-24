@@ -1,5 +1,5 @@
 .hotel-section-format {
-    background-color: #FFFDEE;
+    background-color: var(--lemon);
     padding-top: 18px;
     padding-bottom: 20px;
     overflow: hidden;
@@ -17,7 +17,7 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 23px;
-    color: #B4B4B4;
+    color: var(--text-four-color);
     margin-bottom: 6px;
 }
 
@@ -27,7 +27,7 @@
     font-size: 40px;
     line-height: 43px;
     letter-spacing: 0.3em;
-    color: #494848;
+    color: var(--text-five-color);
     margin-bottom: 16px;
     margin-right: -10px;
 }
@@ -38,7 +38,7 @@
     font-size: 12px;
     line-height: 15px;
     letter-spacing: 0.02em;
-    color: #7A7A7A;
+    color: var(--text-one-color);
     margin-bottom: 28px;
     margin-left: auto;
     width: 242px;
@@ -55,7 +55,7 @@
 
 .hotel-brown-edition {
     width: 200px;
-    color: #C79002;
+    color: var(--text-two-color);
     margin-right: auto;
     margin-left: 0;
 }
@@ -101,6 +101,13 @@
     display: none;
 }
 
+.hotel-btn-click-item:hover{
+    fill: var(--akzent-yellow);
+}
+
+.hotel-btn-click-item:focus {
+    fill: var(--akzent-yellow);
+}
 /*  */
 
 
@@ -133,7 +140,7 @@
         font-weight: 600;
         font-size: 16px;
         line-height: 20px;
-        color: #7A7A7A;
+        color: var( --text-one-color);
         margin-bottom: 142px;
         width: 419px;
     }
@@ -152,7 +159,7 @@
 
     .hotel-brown-edition {
         width: 312px;
-        color: #C79002;
+        color: var( --text-two-color);
         margin-right: 0;
         margin-bottom: 0;
     }
@@ -222,7 +229,7 @@
 
         .hotel-brown-edition {
             width: 311px;
-            color: #C79002;
+            color: var(--text-two-color);
             margin-right: 0;
             margin-bottom: 0;
             margin-top: 170px;
@@ -241,7 +248,7 @@
         }
 
         .hotel-slider {
-            height: 200px;
+            height: 210px;
         }
 
         .hotel-btn-click {
