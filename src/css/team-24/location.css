@@ -14,7 +14,7 @@
   font-size: 40px;
   line-height: 43px;
   letter-spacing: 0.3em;
-  color: var(--text-2-color);
+  color: var(--text-five-color);
 
   margin-bottom: 12px;
 }
@@ -24,7 +24,7 @@
 
   letter-spacing: 0.02em;
 
-  color: var(--text-1-color);
+  color: var(--text-one-color);
 
   margin-bottom: 16px;
 }
@@ -42,7 +42,7 @@
 
   letter-spacing: 0.02em;
 
-  color: var(--text-2-color);
+  color: var(--text-two-color);
   margin-bottom: 16px;
 
   display: flex;
@@ -94,7 +94,7 @@
   font-weight: 400;
   font-size: 14px;
   letter-spacing: 0.02em;
-  color: #494848;
+  color: var(--text-five-color);
   font-style: normal;
 }
 
@@ -114,7 +114,7 @@
   font-size: 14px;
   letter-spacing: 0.02em;
   line-height: 20px;
-  color: #494848;
+  color: var(--text-five-color);
   font-style: normal;
   padding-left: 44px;
   padding-right: 36px;
@@ -142,6 +142,8 @@ border-radius: 2px;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
+  stroke: #C79002;
+    fill: #C79002;
 }
 
 @media screen and (min-width: 414px) {
