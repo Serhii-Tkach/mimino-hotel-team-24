@@ -12,12 +12,11 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, .5);
-  z-index: 20;
+  z-index: 5;
   transition: .3s all;
 }
 
 .modal-block {
-
 
   /* Скрываем окна  */
   opacity: 0;
@@ -38,8 +37,8 @@
 
   /* width: 100%;
   max-width: 414px; */
+  background-color: var(--dark-lemon);
   padding: 15px;
-  outline: 2px solid tomato;
 
 }
 
