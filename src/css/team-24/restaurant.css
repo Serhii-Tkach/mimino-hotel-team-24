@@ -83,6 +83,11 @@
         gap: 20px;
     }
 
+    .restaurant-image-slide-tablet,
+    .restaurant-image-slide-desctop {
+        display: none;
+    }
+
     .img-list-subtitle {
         display: flex;
         padding-top: 32px;
@@ -130,6 +135,11 @@
 
     .restaurant-image-one-mobile,
     .restaurant-image-one-desctop {
+        display: none;
+    }
+
+    .restaurant-image-slide-mobile,
+    .restaurant-image-slide-desctop {
         display: none;
     }
  
