@@ -1,51 +1,72 @@
 /* Стили для подложки */
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select::-ms-expand {
+  display: none;
+}
+::-moz-placeholder,
+:-moz-placeholder {
+  opacity: 1;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
 
 .overlay {
-   
   /* Скрываем подложку  */
   opacity: 0;
   visibility: hidden;
-  
+
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, 0.5);
   z-index: 5;
-  transition: .3s all;
+  transition: 0.3s all;
 }
 
 .modal-block {
-
   /* Скрываем окна  */
   opacity: 0;
   visibility: hidden;
+  height: 90%;
+  overflow: auto;
 
+  /*  Установаем ширину окна  */
+  width: 100%;
+  max-width: 400px;
 
- /*  Установаем ширину окна  */
- width: 100%;
- max-width: 400px;
- 
- /*  Центрируем и задаем z-index */
- position: fixed;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- z-index: 30; /* Должен быть выше чем у подложки*/
-
+  /*  Центрируем и задаем z-index */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30; /* Должен быть выше чем у подложки*/
 
   /* width: 100%;
   max-width: 414px; */
   background-color: var(--dark-lemon);
   padding: 15px;
-
 }
 
+.modal-first {
+  max-height: 552px;
+}
+
+.modal-second {
+  max-height: 810px;
+}
+
+
 .modal-block.active,
-.overlay.active{
-   opacity: 1;
-   visibility: visible;
+.overlay.active {
+  opacity: 1;
+  visibility: visible;
 }
 
 .modal-close-btn {
@@ -152,9 +173,42 @@
   pointer-events: none;
 }
 
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .modal-block {
+    max-height: 90vh;
+    width: 95vw;
+  }
+
+  .modal-first {
+    height: 506px;
+  }
+
+  .modal-second {
+    height: 764px;
+  }
+
+  .modal-title {
+    font-size: 20px;
+  }
+
+  .field-input::placeholder,
+  .field-select {
+    font-size: 16px;
+  }
+
+  .field-label {
+    font-size: 12px;
+  }
+
+  .modal-submit-btn {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .modal-block {
-    width: 712px;
+    max-width: 712px;
   }
 
   .modal-title {
@@ -184,6 +238,10 @@
 
   .field-input {
     padding: 18px 12px;
+  }
+
+  .field-input:focus {
+    outline: 1px solid var(--text-two-color);
   }
 
   .field-input::placeholder,
