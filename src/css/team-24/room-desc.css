@@ -67,14 +67,22 @@
     justify-content: center;
     align-items: center;
 }
+.room-desc-link-text{
+    color: var(--text-two-color);
+}
 .room-desc-icon{
     fill: var(--text-two-color);
     transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
+    position: relative;
+    top: 7px;
+    left: 12px;
 }
-.room-desc-link-text:hover + .room-desc-icon{
+.room-desc-link-text:hover  + .room-desc-icon {
+fill: var(--akzent-yellow);
+}
+.room-desc-icon:hover{
     fill: var(--akzent-yellow);
 }
-
 /* tablet 1023 to 1279 */
 @media screen and (min-width: 1023px) and (max-width: 1279px){
     .room-desc{
