@@ -24,16 +24,23 @@
   font-size: 20px;
   line-height: 23px;
   margin-top: 32px;
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
 }
 
 .menu-item {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .menu-item-name {
   width: 221px;
-  margin-top: 8px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -42,10 +49,10 @@
 
 .menu-item-description {
   width: 220px;
-  margin-top: 4px;
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.02em;
+  font-weight: 400;
 }
 
 .menu-item-weight {
@@ -54,7 +61,6 @@
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 0.02em;
-  margin: auto 32px;
 }
 
 .menu-item-price {
