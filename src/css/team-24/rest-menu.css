@@ -33,6 +33,10 @@
   row-gap: 8px;
 }
 
+.menu-item-div {
+  width: 225px;
+}
+
 .menu-item {
   display: flex;
   align-items: center;
@@ -40,7 +44,6 @@
 }
 
 .menu-item-name {
-  width: 221px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
@@ -48,7 +51,6 @@
 }
 
 .menu-item-description {
-  width: 220px;
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.02em;
@@ -56,7 +58,6 @@
 }
 
 .menu-item-weight {
-  width: 52px;
   font-weight: 300;
   font-size: 14px;
   line-height: 17px;
@@ -95,16 +96,45 @@
   border: 2px solid var(--akzent-yellow);
 }
 
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .menu-item-div,
+  .menu-item-name {
+    width: 170px;
+  }
+}
+
+@media screen and (min-width: 414px) and (max-width: 1024px) {
+  .menu-item-div,
+  .menu-item-name {
+    width: 170px;
+  }
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .menu-header {
     padding-top: 58px;
-    padding-left: 20px;
   }
 
   .menu-div {
     flex-direction: row;
     justify-content: center;
     gap: 88px;
+  }
+
+  .menu-list {
+    width: 412px;
+  }
+
+  .menu-item-div {
+    width: 226px;
+  }
+
+  .menu-item-name {
+    width: 226px;
+  }
+
+  .menu-item-description {
+    width: 225px;
   }
 
   .menu-btn-div {
@@ -116,13 +146,28 @@
 @media screen and (min-width: 1200px) {
   .menu-header {
     padding-top: 58px;
-    padding-left: 85px;
   }
 
   .menu-div {
     flex-direction: row;
     justify-content: center;
     gap: 140px;
+  }
+
+  .menu-list {
+    width: 485px;
+  }
+
+  .menu-item-name {
+    width: 291px;
+  }
+
+  .menu-item-description {
+    width: 262px;
+  }
+
+  .menu-item-div {
+    width: 291px;
   }
 
   .menu-btn-div {
