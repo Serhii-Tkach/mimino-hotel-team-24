@@ -23,7 +23,9 @@
 @import url('./team-24/room-desc.css');
 @import url('./team-24/footer.css');
 
-/* Serhii */
+/* Modal */
+
+@import url('./team-24/modal-two.css');
 
 
 :root {
