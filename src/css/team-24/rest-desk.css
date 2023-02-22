@@ -63,6 +63,15 @@
   gap: 32px;
 }
 
+.rd-svg {
+  transition: var(--transition-main);
+}
+
+.rd-svg:hover,
+.rd-svg:focus {
+  fill: var(--akzent-yellow);
+}
+
 .rd-btn-div {
   display: flex;
   flex-direction: column;
@@ -90,6 +99,11 @@
 .rd-btn:focus {
   background-color: var(--whit);
   border: 2px solid var(--akzent-yellow);
+}
+@media screen and (min-width: 320px) and (max-width: 414px) {
+  .rd-text {
+    width: 170px;
+  }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
