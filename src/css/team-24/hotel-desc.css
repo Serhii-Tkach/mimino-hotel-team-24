@@ -19,18 +19,19 @@
     line-height: 1.07;
     letter-spacing: 0.3em;
     color: var(--whit);
+    width: 127px;
 }
 .hotel-desc-subtitle{
     font-size: 20px;
     line-height: 1.2;
     color: var(--whit);
-    padding-left: 45px;
+    padding-left: 60px;
 }
 .hotel-desc-text{
     font-weight: 600;
     font-size: 12px;
     color: var(--text-six-color) ;
-    padding-left: 16px;
+    padding-left: 25px;
     padding-right: 123px;
     margin-top: 20px;
 
@@ -117,7 +118,7 @@
     }
 }
 /* 1023 to 1279 */
-@media screen and (min-width: 1023px) and (max-width: 1279px){
+@media screen and (min-width: 1024px) and (max-width: 1199px){
  .hotel-desc-img-mobile{
     display: none;
  }
@@ -175,20 +176,23 @@
    }
    .hotel-desc-title{
     font-size: 64px;
+    width: 202px;
+
    }
    .hotel-desc-subtitle{
     font-size: 24px;
-    padding-left: 90px;
+    margin-left: 118px;
+    padding-left: 0;
    }
    .hotel-desc-text{
     width: 549px;
-    padding-left: 0px;
+    padding-left: 2px;
     margin-top: 8px;
-    margin-left: 300px;
+    margin-left: 304px;
    }
 }
-/* 1279 and upwards */
-@media screen and ( min-width: 1279px) {
+/* 1200 and upwards */
+@media screen and ( min-width: 1200px) {
     .hotel-desc-img-desktop{
         display: initial;
     }
@@ -242,15 +246,19 @@
    }
    .hotel-desc-title{
     font-size: 64px;
+    width: 202px;
+    margin-left: 125px;
    }
    .hotel-desc-subtitle{
     font-size: 24px;
-    padding-left: 90px;
+    padding-left: 0px;
+    margin-left: 240px;
    }
    .hotel-desc-text{
     width: 595px;
     padding-left: 0px;
     margin-top: 8px;
-    margin-left: 320px;
+    margin-left: 422px;
+    padding-right: 150px;
    }
 }
