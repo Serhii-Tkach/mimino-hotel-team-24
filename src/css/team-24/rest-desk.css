@@ -101,7 +101,29 @@
   border: 2px solid var(--akzent-yellow);
 }
 
-@media screen and (min-width: 320px) and (max-width: 414px) {
+@media screen and (min-width: 320px) and (max-width: 370px) {
+  .rd-text-div {
+    padding-left: 120px;
+  }
+
+  .rd-text {
+    width: 170px;
+  }
+
+  .rd-scroll {
+    margin-left: 0;
+  }
+
+  .rd-scroll-btn {
+    padding-left: 0;
+  }
+}
+
+@media screen and (min-width: 370px) and (max-width: 400px) {
+  .rd-text-div {
+    padding-left: 170px;
+  }
+
   .rd-text {
     width: 170px;
   }
