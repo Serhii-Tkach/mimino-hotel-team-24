@@ -195,6 +195,9 @@ a.room-one-link-btn {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
     }
+    .room-one-link {
+        padding-top: 41px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
