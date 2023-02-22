@@ -59,7 +59,7 @@ input[type='number'] {
 }
 
 .modal-second {
-  max-height: 810px;
+  max-height: 780px;
 }
 
 
@@ -142,8 +142,9 @@ input[type='number'] {
 
 .modal-submit-btn {
   display: block;
+  width: 100%;
   margin: 0 auto;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 1.21;
   padding: 20px 41px;
@@ -201,7 +202,7 @@ input[type='number'] {
   }
 
   .modal-submit-btn {
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 30px;
   }
 }
@@ -209,6 +210,14 @@ input[type='number'] {
 @media screen and (min-width: 1024px) {
   .modal-block {
     max-width: 712px;
+  }
+
+  .modal-first {
+    height: 522px;
+  }  
+
+  .modal-second {
+    height: 638px;
   }
 
   .modal-title {
