@@ -3,9 +3,8 @@
     padding-top: 18px;
     padding-bottom: 20px;
     overflow: hidden;
-    height: 1181px;
+    height: 1200px;
 }
-
 
 .hotel-ghost-text,
 .hotel-title {
@@ -111,6 +110,21 @@
 
 /*  */
 
+
+
+
+@media screen and (min-width: 332px) {
+    .hotel-section-format {
+        height: 1185px;
+    }
+}
+
+@media screen and (min-width: 334px) {
+    .hotel-section-format {
+        height: 1181px;
+    }
+
+}
 
 @media screen and (min-width: 1024px) {
     .hotel-ghost-text {
