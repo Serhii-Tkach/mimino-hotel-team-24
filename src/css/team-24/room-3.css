@@ -44,7 +44,9 @@
 .double-room-img {
   margin-left: auto;
   margin-bottom: 32px;
-  box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
+}
+.room-img-top {
+  box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   border-radius: 2px;
 }
 .double-room-slider-box {
@@ -112,32 +114,10 @@
   color: var(--akzent-yellow);
   border: 2px solid var(--akzent-yellow);
 }
-
-/* @media screen and (max-width: 1023px) {
-  .double-room-subtitle {
-    font-size: 20px;
-  }
-  .double-room-text {
-    width: 258px;
-    font-size: 12px;
-  }
-  .double-room-slider-img {
-    border-radius: 2px;
-  }
-} */
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .double-room {
     overflow: hidden;
   }
-  /* .double-room-img {
-    position: absolute;
-    margin-bottom: 0;
-    overflow: visible;
-    z-index: 1;
-    top: -96px;
-    right: 20px;
-  } */
-
   .room-img-top {
     width: 244px;
     margin-left: auto;
@@ -155,14 +135,31 @@
     margin-right: 16px;
   }
 }
+@media screen and (min-width: 1024px) {
+  .double-room-slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .double-room-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  .double-room-nav {
+    display: flex;
+  }
+}
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .double-room-section {
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
   .double-room-img {
     position: absolute;
     margin-bottom: 0;
     overflow: visible;
     z-index: 1;
-    top: -96px;
+    top: -103px;
     right: 50px;
   }
   .double-room-subtitle {
@@ -180,17 +177,9 @@
     margin-bottom: 16px;
   }
   .double-room-text {
+    margin-bottom: 174px;
     width: 439px;
     font-size: 16px;
-  }
-}
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .double-room-section {
-    padding-top: 64px;
-    padding-bottom: 40px;
-  }
-  .double-room-text {
-    margin-bottom: 174px;
   }
   .double-room-slider-box {
     margin-bottom: 32px;
@@ -202,24 +191,10 @@
     margin-left: 330px;
   }
 }
-/* @media screen and (min-width: 768px) {
-  .double-room-slider {
-    display: flex;
-    flex-direction: column;
-  }
-  .double-room-item {
-    display: flex;
-    justify-content: space-between;
-  }
-  .double-room-nav {
-    display: flex;
-  }
-} */
 @media screen and (min-width: 1280px) {
   .double-room-section {
     padding-top: 72px;
     padding-bottom: 40px;
-    outline: 2px solid tomato;
   }
   .double-room-img {
     position: absolute;
@@ -228,9 +203,6 @@
     z-index: 1;
     top: -104px;
     right: 80px;
-  }
-  .double-room-img {
-    box-shadow: 5px 5px 70px 17px rgba(0, 0, 0, 0.25);
   }
   .double-room-subtitle {
     font-size: 32px;
@@ -259,12 +231,6 @@
     align-self: flex-end;
   }
 }
-.double-room-modal {
-  width: 414px;
-  height: 572px;
-  background-color: lightblue;
-  z-index: 2;
-}
 
 /* MODAL */
 select {
@@ -275,15 +241,28 @@ select {
 select::-ms-expand {
   display: none;
 }
+::-moz-placeholder,
+:-moz-placeholder {
+  opacity: 1;
+}
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 .double-room-modal {
-  width: 414px;
-  height: 572px;
+  max-width: 414px;
+  margin: 0 auto;
   background-color: var(--dark-lemon);
   padding: 16px;
-  border: 1px solid tomato;
 }
 .room-close-btn {
   display: block;
+  background-color: transparent;
+  stroke: var(--black);
   margin-left: auto;
   margin-bottom: 20px;
   padding: 0;
@@ -321,6 +300,7 @@ select::-ms-expand {
 }
 .room-modal-nights,
 .room-modal-prices {
+  padding: 13px 15px;
   margin-bottom: 8px;
   border: 1px solid var(--text-two-color);
   background-color: transparent;
@@ -333,9 +313,6 @@ select::-ms-expand {
 .room-modal-select {
   position: relative;
   margin-bottom: 20px;
-}
-.room-modal-nights {
-  padding: 13px 15px;
 }
 .room-modal-arrow {
   position: absolute;
@@ -350,8 +327,7 @@ select::-ms-expand {
   margin-bottom: 40px;
 }
 .room-modal-prices {
-  padding: 18px 12px 8px;
-  color: var(--text-seven-color);
+  color: black;
   font-weight: inherit;
   font-size: 24px;
 }
@@ -377,20 +353,20 @@ select::-ms-expand {
 .room-modal-nights,
 .room-modal-prices::placeholder {
   font-family: 'Times New Roman', Times, serif;
-  color: var(--text-seven-color);
+  color: #808080;
   font-size: 24px;
   font-weight: 700;
   width: 100%;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .room-modal-form {
     display: flex;
     flex-direction: column;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .double-room-modal {
-    width: 712px;
+    max-width: 712px;
     padding: 60px;
     position: relative;
   }
@@ -411,5 +387,8 @@ select::-ms-expand {
 
   .room-modal:nth-child(2) {
     margin-right: 0;
+  }
+  .room-modal-btn {
+    margin: 0 auto;
   }
 }
