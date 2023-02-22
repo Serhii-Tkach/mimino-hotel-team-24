@@ -129,7 +129,7 @@ a.room-one-link-btn {
     border: 2px solid #F3C653;
     border-radius: 25px;
 }
-.room-one-btn-none {
+.room-one-btn-non {
     background-color: transparent;
     color: none;
     border: none;
@@ -194,6 +194,9 @@ a.room-one-link-btn {
     .room-one-slader-two-tab {
         box-shadow: 2px 2px 60px 2px rgba(0, 0, 0, 0.25);
         border-radius: 2px;
+    }
+    .room-one-link {
+        padding-top: 41px;
     }
 }
 
