@@ -3,6 +3,9 @@
 }
 
 .hero-section {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.65),
@@ -186,6 +189,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero-section {
+    max-width: 1024px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
@@ -268,6 +272,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero-section {
+    max-width: 1280px;
     background-image: linear-gradient(
         to right,
         rgba(0, 0, 0, 0.65),
