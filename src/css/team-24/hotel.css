@@ -104,13 +104,6 @@
     display: none;
 }
 
-.hotel-btn-click-item:hover {
-    fill: var(--akzent-yellow);
-}
-
-.hotel-btn-click-item:focus {
-    fill: var(--akzent-yellow);
-}
 
 /*  */
 
