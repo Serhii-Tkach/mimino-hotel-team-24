@@ -65,5 +65,68 @@
   </form>  
 </div>
 
+
+<!-- TABLE -->
+
+<div class="modal-block modal-first modal" data-modal="book-table">
+  <button class="modal-close-btn js-modal-close" type="button">
+    <svg class="modal-icon" width="24" height="24">
+      <use href="../img/symbol-defs.svg#icon-menu-close"></use>
+    </svg>
+  </button>
+  <h2 class="modal-title">ЗАБРОНЮВАТИ СТОЛИК</h2>
+  <form class="modal-form">
+    <div class="modal-field modal-field-restaurant">
+      <input
+        class="field-input"
+        type="text"
+        name="text"
+        id="name"
+        placeholder="Ваше ім’я"
+      />
+      <label class="field-label" for="name">На кого забронювати столик?</label>
+    </div>
+    <div class="modal-field modal-field-restaurant">
+      <input
+        class="field-input"
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="+38 (___) ___-__-__"
+      />
+      <label class="field-label" for="phone">Номер телефону</label>
+    </div>
+    <div class="modal-field modal-field-restaurant">
+      <select class="field-input field-select" id="table" name="table-count">
+        <option value="1">1</option>
+        <option value="2" selected>2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+      </select>
+      <svg width="24" height="24" class="modal-arrow-icon">
+        <use href="./img/symbol-defs.svg#icon-arrowdown-for-modal"></use>
+      </svg>
+      <label class="field-label" for="table"
+        >Столик на яку кількість осіб?</label
+      >
+    </div>
+    <div class="modal-field modal-field-restaurant">
+      <select class="field-input field-select" id="day" name="day-to-go">
+        <option value="today" selected>Сьогодні</option>
+        <option value="tommorow">Завтра</option>
+        <option value="next-day">Через день</option>
+      </select>
+      <svg width="24" height="24" class="modal-arrow-icon">
+        <use href="./img/symbol-defs.svg#icon-arrowdown-for-modal"></use>
+      </svg>
+      <label class="field-label" for="table">На яку дату бронювати?</label>
+    </div>
+    <button class="modal-submit-btn" type="submit">ОФОРМИТИ БРОНЮВАННЯ</button>
+  </form>
+</div>
+
+
     <!-- Подложка под модальным окном -->
   <div class="overlay js-overlay-modal"></div>
