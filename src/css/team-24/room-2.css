@@ -155,7 +155,7 @@ text-align: right;
 
   .triple-room-nav{
     justify-content: flex-start;
-    align-items: start;
+    /* align-items: start; */
   }
 
 }
