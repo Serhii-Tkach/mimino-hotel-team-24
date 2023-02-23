@@ -153,6 +153,7 @@
 
   .loc-address-wrap {
     max-width: 260px;
+    margin-bottom: 32px;
   }
 
   .loc-address {
