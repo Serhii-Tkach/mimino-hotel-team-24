@@ -3,6 +3,9 @@
 }
 
 .hero-section-room {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(
       180deg,
       #000000 0%,
@@ -126,6 +129,7 @@
 
 @media screen and (min-width: 1024px) {
   .hero-section-room {
+    max-width: 1024px;
     background-image: linear-gradient(
         180deg,
         #000000 0%,
@@ -205,6 +209,7 @@
 
 @media screen and (min-width: 1200px) {
   .hero-section-room {
+    max-width: 1280px;
     background-image: linear-gradient(
         180deg,
         #000000 0%,

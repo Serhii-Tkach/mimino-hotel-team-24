@@ -3,7 +3,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100vw;
+    max-width: 414px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 24px;
     padding-bottom: 40px;
 }
@@ -124,6 +126,7 @@
     display: initial;
  }
  .hotel-desc{
+    max-width: 1024px;
     background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Tablet/Hotel_desc/hotel-desc-background@1x.webp);
     padding-top: 48px;
     padding-bottom: 48px;
@@ -198,6 +201,7 @@
         display: none;
     }
     .hotel-desc{
+        max-width: 1280px;
         background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../img/Desktop/Hotel_desc/hotel-desc-background@1x.webp);
         background-position: center;
         background-repeat: no-repeat;
