@@ -32,7 +32,6 @@
   margin-bottom: 12px;
 }
 .double-room-text {
-  width: 258px;
   font-family: 'Montserrat';
   font-weight: 600;
   letter-spacing: 0.02em;
@@ -64,13 +63,6 @@
   border: none;
   background-color: transparent;
   outline: none;
-}
-.room-arrow-btn {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.room-arrow-btn:hover,
-.room-arrow-btn:focus {
-  fill: var(--akzent-yellow);
 }
 .room-arrow-btn:not(:last-child) {
   margin-right: 32px;
@@ -117,6 +109,9 @@
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .double-room {
     overflow: hidden;
+  }
+  .double-room-text {
+    width: 258px;
   }
   .room-img-top {
     width: 244px;
@@ -176,9 +171,11 @@
 
     margin-bottom: 16px;
   }
+  .double-room-info {
+    width: 439px;
+  }
   .double-room-text {
     margin-bottom: 174px;
-    width: 439px;
     font-size: 16px;
   }
   .double-room-slider-box {
@@ -215,8 +212,10 @@
     font-size: 36px;
     margin-bottom: 24px;
   }
+  .double-room-info {
+    width: 410px;
+  }
   .double-room-text {
-    width: 400px;
     font-size: 16px;
     margin-bottom: 188px;
   }
