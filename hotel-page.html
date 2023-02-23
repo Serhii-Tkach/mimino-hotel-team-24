@@ -176,6 +176,7 @@
         name="text"
         id="name"
         placeholder="Ваше ім’я"
+        required
       />
       <label class="field-label" for="name">На кого забронювати столик?</label>
     </div>
@@ -186,11 +187,12 @@
         name="phone"
         id="phone"
         placeholder="+38 (___) ___-__-__"
+        required
       />
       <label class="field-label" for="phone">Номер телефону</label>
     </div>
     <div class="modal-field modal-hotel-flex modal-field-hotel">
-      <select class="field-input field-select" id="table" name="table-count">
+      <select class="field-input field-select" id="table" name="table-count" required>
         <option value="1">Двомісний</option>
         <option value="2">Двомісний люкс</option>
         <option value="3">Трьохмісний</option>
@@ -201,7 +203,7 @@
       <label class="field-label" for="table">Категорія номеру</label>
     </div>
     <div class="modal-field modal-field-hotel">
-      <select class="field-input field-select" id="day" name="day-to-go">
+      <select class="field-input field-select" id="day" name="day-to-go" required>
         <option value="today" selected>Сьогодні</option>
         <option value="tommorow">Завтра</option>
         <option value="next-day">Через день</option>
@@ -212,7 +214,7 @@
       <label class="field-label" for="table">Дата заїзду</label>
     </div>
     <div class="modal-field modal-field-hotel">
-      <select class="field-input field-select" id="day" name="day-to-go">
+      <select class="field-input field-select" id="day" name="day-to-go" required>
         <option value="today" selected>Сьогодні</option>
         <option value="tommorow">Завтра</option>
         <option value="next-day">Через день</option>
@@ -244,6 +246,7 @@
         name="text"
         id="name"
         placeholder="Ваше ім’я"
+        required
       />
       <label class="field-label" for="name">На кого забронювати столик?</label>
     </div>
@@ -254,11 +257,12 @@
         name="phone"
         id="phone"
         placeholder="+38 (___) ___-__-__"
+        required
       />
       <label class="field-label" for="phone">Номер телефону</label>
     </div>
     <div class="modal-field modal-field-restaurant">
-      <select class="field-input field-select" id="table" name="table-count">
+      <select class="field-input field-select" id="table" name="table-count" required>
         <option value="1">1</option>
         <option value="2" selected>2</option>
         <option value="3">3</option>
@@ -274,7 +278,7 @@
       >
     </div>
     <div class="modal-field modal-field-restaurant">
-      <select class="field-input field-select" id="day" name="day-to-go">
+      <select class="field-input field-select" id="day" name="day-to-go" required>
         <option value="today" selected>Сьогодні</option>
         <option value="tommorow">Завтра</option>
         <option value="next-day">Через день</option>
