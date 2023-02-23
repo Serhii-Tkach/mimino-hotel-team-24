@@ -36,7 +36,6 @@ input[type='number'] {
   /* Скрываем окна  */
   opacity: 0;
   visibility: hidden;
-  height: 90%;
   overflow: auto;
 
   /*  Установаем ширину окна  */
@@ -52,14 +51,6 @@ input[type='number'] {
 
   background-color: var(--dark-lemon);
   padding: 15px;
-}
-
-.modal-first {
-  max-height: 552px;
-}
-
-.modal-second {
-  max-height: 780px;
 }
 
 
@@ -116,10 +107,11 @@ input[type='number'] {
   border: 1px solid var(--text-two-color);
   border-radius: 2px;
   margin-bottom: 8px;
-  color: inherit;
+  font-size: 20px;
+  color: var(--black);
   background-color: transparent;
   font-family: inherit;
-  font-weight: inherit;
+  font-weight: 600;
 }
 
 .field-input::placeholder,
@@ -180,19 +172,11 @@ input[type='number'] {
     width: 95vw;
   }
 
-  .modal-first {
-    height: 506px;
-  }
-
-  .modal-second {
-    height: 764px;
-  }
-
   .modal-title {
     font-size: 20px;
   }
 
-  .field-input::placeholder,
+  .field-input, .field-input::placeholder,
   .field-select {
     font-size: 16px;
   }
@@ -210,14 +194,6 @@ input[type='number'] {
 @media screen and (min-width: 1024px) {
   .modal-block {
     max-width: 712px;
-  }
-
-  .modal-first {
-    height: 522px;
-  }  
-
-  .modal-second {
-    height: 638px;
   }
 
   .modal-title {
@@ -253,7 +229,7 @@ input[type='number'] {
     outline: 1px solid var(--text-two-color);
   }
 
-  .field-input::placeholder,
+  .field-input, .field-input::placeholder,
   .field-select {
     font-size: 24px;
   }

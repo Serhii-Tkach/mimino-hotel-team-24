@@ -1,4 +1,7 @@
 .restaurant-desk {
+  max-width: 414px;
+  margin-left: auto;
+  margin-right: auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
     url('../../img/Mobile/Rest-desk/rest-desk-img4m@1x.webp');
   background-repeat: no-repeat;
@@ -131,6 +134,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1200px) {
   .restaurant-desk {
+    max-width: 1024px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/Mobile/Rest-desk/rest-desk-img4t@1x.webp');
     position: relative;
@@ -170,6 +174,7 @@
 
 @media screen and (min-width: 1200px) {
   .restaurant-desk {
+    max-width: 1280px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
       url('../../img/Mobile/Rest-desk/rest-desk-img4d@1x.webp');
     position: relative;
