@@ -73,6 +73,7 @@ body {
   font-weight: var(--font-weight-body);
   line-height: var(--line-height-body);
   letter-spacing: var(--letter-spacing-body);
+
 }
 
 @font-face {
