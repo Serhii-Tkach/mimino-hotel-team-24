@@ -86,13 +86,6 @@
     display: flex;
     gap: 32px;
 }
-.room-one-btn-click-item{
-    transition: fill 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-.room-one-btn-click-item:hover,
-.room-one-btn-click-item:focus {
-    fill: var(--akzent-yellow);
-}
 .room-one-link {
     display: flex;
     flex-direction: column;
@@ -129,7 +122,7 @@ a.room-one-link-btn {
     border: 2px solid #F3C653;
     border-radius: 25px;
 }
-.room-one-btn-non {
+.room-one-btn-none {
     background-color: transparent;
     color: none;
     border: none;
