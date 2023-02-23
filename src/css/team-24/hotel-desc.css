@@ -84,12 +84,9 @@
 }
 .hotel-desc-icon{
     fill: var(--whit);
-    transition: fill 250ms cubic-bezier(0.47, 0, 0.745, 0.715);
-}
-.hotel-desc-icon:hover{
-    fill: var(--akzent-yellow) ;
     
 }
+
 .hotel-desc-button-list{
     display: flex;
     flex-direction: column;

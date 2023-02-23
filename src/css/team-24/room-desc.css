@@ -25,6 +25,7 @@
     margin-bottom: 16px;
     color: var(--black);
     text-transform: uppercase;
+    
 }
  
 .room-desc-text{
@@ -89,28 +90,50 @@ fill: var(--akzent-yellow);
         padding-top: 50px;
         padding-bottom: 40px;
     }
-}
-@media screen and (min-width: 1024px){
+    .room-desc-list-member-content > p:nth-child(2n+1){
+        margin-right: 80px;
+     }
+     
+     .room-desc-list-member-content > p:nth-child(2n){
+        margin-right: 34px;
+     }
+     .title-content > p{
+        margin-right: 150px;
+    }
    
+}
+/* tablet and desktop shared */
+@media screen and (min-width: 1024px){
+     .room-desc-general-title{
+        width: 347px;
+     }
+    
     .room-desc-list-member-content{
         display: flex;
         flex-direction: row;
-        gap: 80px;
      }
+    
+     .exemption{
+      display: initial;
+    }
      .room-desc-list-member-content > p{
-        width: 400px;
+        width: 408px;
      }
      .room-desc-interaction{
         align-items: end;
-        text-align: initial;
         gap: 32px;
      }
      .room-desc-button{
-       padding: 20px 38px;
+       padding: 18px 38px;
+       font-size: 24px;
      }
-     
      .room-desc-link{
-        margin-right: 20px;
+        padding-right: 12px;
+        justify-content: initial;
+        align-items: initial;
+     }
+     .room-desc-link-text{
+        font-size: 20px;
      }
      .room-desc-text{
         margin-bottom: 0;
@@ -126,7 +149,20 @@ fill: var(--akzent-yellow);
 @media screen and (min-width: 1200px){
     .room-desc{
         padding-top: 48px;
-        padding-bottom: 40px;
+        padding-bottom: 48px;
+    }
+    .room-desc-list-member-content > p:nth-child(2n+1){
+        margin-right: 159px;
+     }
+     
+     .room-desc-list-member-content > p:nth-child(2n){
+        margin-right: 135px;
+     }
+     .title-content > p{
+        margin-right: 330px;
+    }
+    .room-desc-interaction{
+        margin-right: 100px;
     }
 }
 /* additional queries */
