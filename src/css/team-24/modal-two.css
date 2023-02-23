@@ -87,6 +87,23 @@ input[type='number'] {
   text-align: center;
 }
 
+.modal-mini-title {
+  font-size: 24px;
+  line-height: 1.15;
+  color: #808080;
+  letter-spacing: 0.05em;
+  margin-bottom: 28px;
+  text-align: left;
+}
+
+.modal-category {
+  font-size: 16px;
+  color: var(--text-two-color);
+  font-weight: 500;
+  letter-spacing: 1.21em;
+  margin-bottom: 20px;
+}
+
 .modal-field {
   margin-bottom: 20px;
   position: relative;
